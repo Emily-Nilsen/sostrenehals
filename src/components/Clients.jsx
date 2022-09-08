@@ -7,7 +7,7 @@ import logoArctic from '@/images/logos/ArcticSecurities.svg'
 import logoNeed from '@/images/logos/NeedMusic.svg'
 import logoNorgesGruppen from '@/images/logos/NorgesGruppen.svg'
 
-const sponsors = [
+const clients = [
   { name: 'DNB', logo: logoDnb },
   { name: 'MEF', logo: logoMef },
   { name: 'ArcticSecurities', logo: logoArctic },
@@ -16,20 +16,20 @@ const sponsors = [
   { name: 'DNB', logo: logoDnb },
 ]
 
-export function Sponsors() {
+export function Clients() {
   return (
-    <section id="sponsors" aria-label="Sponsors" className="py-20 sm:py-32">
+    <section id="clients" aria-label="Clients" className="py-20 sm:py-32">
       <Container>
         <h2 className="max-w-2xl mx-auto text-4xl font-medium tracking-tighter text-center font-display text-couture-darkGold sm:text-5xl contrast-150">
-          Current sponsorships for our workshops and speakers.
+          Utvalgte oppdragsgivere
         </h2>
         <div className="grid grid-cols-1 mx-auto mt-20 max-w-max place-content-center gap-y-12 gap-x-32 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
-          {sponsors.map((sponsor) => (
+          {clients.map((client) => (
             <div
-              key={sponsor.name}
+              key={client.name}
               className="flex items-center justify-center"
             >
-              <Image src={sponsor.logo} alt={sponsor.name} unoptimized />
+              <Image src={client.logo} alt={client.name} unoptimized />
             </div>
           ))}
         </div>

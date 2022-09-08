@@ -4,15 +4,14 @@ export default function Document() {
   return (
     <Html className="antialiased bg-white" lang="en">
       <Head>
-        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        /> */}
+        
         <link
           rel="stylesheet"
           href="https://use.typekit.net/dzz8hhf.css"
+        />
+        <link
+          rel="icon"
+          href="/nutmegLogo.svg"
         />
       </Head>
       <body>

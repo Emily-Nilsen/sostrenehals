@@ -2,6 +2,7 @@ import { Container } from '@/components/Container'
 import logoNutmegLong from '@/images/logos/nutmegLogoLong.svg'
 import Image from 'next/image'
 import { Logo } from '@/components/Logo'
+import {SocialLinks} from '@/components/SocialLinks'
 
 export function Footer() {
   return (
@@ -15,6 +16,7 @@ export function Footer() {
                   alt="Søstrene Hals logo"
                 />
               </div>
+              <SocialLinks/>
         <p className="mt-6 text-base text-nutmeg md:mt-0">
           Copyright &copy; {new Date().getFullYear()} Søstrene Hals
         </p>

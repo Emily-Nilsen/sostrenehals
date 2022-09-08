@@ -19,9 +19,9 @@ function ArrowRightIcon(props) {
   )
 }
 
-export function Newsletter() {
+export function Contact() {
   return (
-    <section id="newsletter" aria-label="Newsletter">
+    <section id="contact" aria-label="Contact">
       <Container>
         <div className="relative px-4 py-20 -mx-4 overflow-hidden bg-couture-lightGold sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
           <Image
@@ -44,7 +44,7 @@ export function Newsletter() {
             </div>
             <form>
               <h3 className="text-lg font-semibold tracking-tight text-couture-darkGold">
-                Sign up to our newsletter <span aria-hidden="true">&darr;</span>
+                Sign up to our contact <span aria-hidden="true">&darr;</span>
               </h3>
               <div className="mt-5 flex rounded-3xl bg-white py-2.5 pr-2.5 shadow-xl shadow-couture-darkGold/5 focus-within:ring-2 focus-within:ring-couture-darkGold">
                 <input
