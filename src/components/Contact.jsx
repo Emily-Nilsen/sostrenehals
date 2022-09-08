@@ -1,5 +1,5 @@
 import Image from 'next/future/image'
-
+import { AtSymbolIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 
@@ -22,45 +22,68 @@ export function Contact() {
   return (
     <section id="contact" aria-label="Contact">
       <Container>
-        <div className="relative px-4 py-20 -mx-4 overflow-hidden bg-couture-lightGold sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
+        <div className="relative px-4 py-20 -mx-4 overflow-hidden bg-couture-lightGold/50 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
           <Image
-            className="absolute left-1/2 top-0 translate-x-[-10%] translate-y-[-45%] lg:translate-x-[-32%] opacity-40 blur-sm"
+            className="absolute left-1/2 top-0 translate-x-[-10%] translate-y-[-45%] lg:translate-x-[-32%] opacity-60 blur-sm"
             src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1662658746/S%C3%B8strene%20Hals/SHwhitelogo_up7mbt.svg"
             alt="Søstrene Hals logo"
             width={919}
             height={1351}
             unoptimized
           />
-          <div className="relative grid max-w-2xl grid-cols-1 mx-auto gap-x-32 gap-y-14 xl:max-w-none xl:grid-cols-2">
+          <div className="relative grid max-w-2xl grid-cols-1 mx-auto gap-x-32 gap-y-14 xl:max-w-none xl:grid-cols-2 font-display">
             <div>
-              <p className="text-4xl font-medium tracking-tighter text-couture-darkGold font-display sm:text-5xl contrast-150">
-                Stay up to date
+              <p className="text-4xl font-medium tracking-tighter text-couture-darkGold sm:text-5xl contrast-150">
+              Ta kontakt
               </p>
               <p className="mt-4 text-lg tracking-tight text-couture-darkGold">
-                Get updates on all of our events and be the first to get
-                notified when tickets go on sale.
+              Engasjer Søstrene Hals til ditt neste arrangement og gjør dette til en uforglemmelig opplevelse.
+              </p>
+              <p className="mt-4 text-lg tracking-tight text-couture-darkGold">
+              Ring oss eller ta kontakt via e-post, så kommer vi tilbake til deg så snart som mulig.
+              </p>
+              <p className="mt-4 text-lg tracking-tight text-couture-darkGold">
+              Vi gleder oss til å høre fra deg!
               </p>
             </div>
-            <form>
-              <h3 className="text-lg font-semibold tracking-tight text-couture-darkGold">
-                Sign up to our contact <span aria-hidden="true">&darr;</span>
+            <div>
+              <div >
+            <dl >
+            <h3 className="text-lg font-semibold tracking-tight text-couture-darkGold contrast-200">
+                Ring oss <span aria-hidden="true">&darr;</span>
               </h3>
-              <div className="mt-5 flex rounded-3xl bg-white py-2.5 pr-2.5 shadow-xl shadow-couture-darkGold/5 focus-within:ring-2 focus-within:ring-couture-darkGold">
-                <input
-                  type="email"
-                  required
-                  placeholder="Email address"
-                  aria-label="Email address"
-                  className="-my-2.5 flex-auto bg-transparent pl-6 pr-2.5 text-base text-couture-darkGold placeholder:text-nutmeg focus:outline-none"
-                />
-                <Button type="submit">
-                  <span className="sr-only sm:not-sr-only">Sign up today</span>
-                  <span className="sm:hidden">
-                    <ArrowRightIcon className="w-6 h-6" />
-                  </span>
-                </Button>
+              <a className="flex px-6 py-4 mt-5 transition duration-300 ease-in-out shadow-xl hover:bg-white/100 rounded-3xl bg-white/50 shadow-couture-darkGold/5 text-couture-darkGold group" href="tel:45506256" rel="noopener noreferrer">
+                <div className="w-full h-full overflow-hidden ">
+                  <dt className="sr-only">Phone number</dt>
+                  <dd className="flex items-center">
+                    <PhoneIcon
+                      className="flex-shrink-0 w-6 h-6 transition duration-300 ease-in-out text-nutmeg group-hover:text-lipstick-light group-hover:brightness-150"
+                      aria-hidden="true"
+                    />
+                    <span className="ml-3 transition duration-300 ease-in-out group-hover:text-eyelashes">455 06 256</span>
+                  </dd>
+                </div>
+              </a>
+              <h3 className="mt-10 text-lg font-semibold tracking-tight text-couture-darkGold contrast-200">
+                Sende oss en e-post <span aria-hidden="true">&darr;</span>
+              </h3>
+              <a className="flex px-6 py-4 mt-5 transition duration-300 ease-in-out shadow-xl hover:bg-white/100 rounded-3xl bg-white/50 shadow-couture-darkGold/5 text-couture-darkGold group" href="mailto:cairnshs@bigpond.com"
+                rel="noopener noreferrer"
+                target="_blank"><div className="group">
+                <dt className="sr-only">Email</dt>
+                <dd className="flex items-center">
+                <AtSymbolIcon
+                      className="flex-shrink-0 w-6 h-6 transition duration-300 ease-in-out text-nutmeg group-hover:text-lipstick-light group-hover:brightness-150"
+                      aria-hidden="true"
+                    />
+                  <span className="ml-3 transition duration-300 ease-in-out group-hover:text-eyelashes">something@gmail.com</span>
+                </dd>
+              </div></a>
+              
+              </dl>
               </div>
-            </form>
+              
+              </div>
           </div>
         </div>
       </Container>

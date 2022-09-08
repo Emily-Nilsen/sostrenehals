@@ -30,7 +30,7 @@ const links = [
 export function SocialLinks() {
   return (
     <div>{/* Social icon links */}
-    <div className="flex justify-center space-x-6 md:order-2">
+    <div className="flex justify-center pt-4 space-x-6 md:order-2 md:pt-0">
     {links.map((item) => (
       <a
         key={item.name}

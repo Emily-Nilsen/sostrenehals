@@ -6,7 +6,7 @@ import {SocialLinks} from '@/components/SocialLinks'
 
 export function Footer() {
   return (
-    <footer className="py-16">
+    <footer className="py-16 font-display">
       <Container className="flex flex-col items-center justify-between md:flex-row">
       <div className="relative h-full pr-1">
                 <Image

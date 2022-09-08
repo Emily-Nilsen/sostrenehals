@@ -4,7 +4,7 @@ import clsx from 'clsx'
 
 const baseStyles = {
   round: 'inline-flex justify-center rounded-2xl bg-t p-4 text-base font-semibold text-couture-darkGold/80 hover:bg-nutmeg focus:outline-none border border-nutmeg/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70 hover:text-white transition duration-300 ease-in-out', 
-  square: 'inline-flex justify-center rounded-none bg-t py-4 px-7 text-lg uppercase tracking-wide font-medium text-white/80 hover:bg-nutmeg focus:outline-none border border-white/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70 hover:text-white transition duration-300 ease-in-out font-display',
+  square: 'inline-flex justify-center rounded-none bg-t py-3 px-7 text-lg uppercase tracking-wide font-medium text-white/80 hover:bg-nutmeg focus:outline-none border border-white/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70 hover:text-white transition duration-300 ease-in-out font-display',
 }
 
 
