@@ -6,6 +6,7 @@ import logoMef from '@/images/logos/MEF.svg'
 import logoArctic from '@/images/logos/ArcticSecurities.svg'
 import logoNeed from '@/images/logos/NeedMusic.svg'
 import logoNorgesGruppen from '@/images/logos/NorgesGruppen.svg'
+import logoBirger from '@/images/logos/Birger.svg'
 
 const clients = [
   { name: 'DNB', logo: logoDnb },
@@ -13,7 +14,7 @@ const clients = [
   { name: 'ArcticSecurities', logo: logoArctic },
   { name: 'NeedMusic', logo: logoNeed },
   { name: 'NorgesGruppen', logo: logoNorgesGruppen },
-  { name: 'DNB', logo: logoDnb },
+  { name: 'Birger', logo: logoBirger },
 ]
 
 export function Clients() {
