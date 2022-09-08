@@ -2,7 +2,6 @@ import Image from 'next/future/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/logos/SHwhiteLogo.svg'
 
 function ArrowRightIcon(props) {
   return (
@@ -26,8 +25,8 @@ export function Contact() {
         <div className="relative px-4 py-20 -mx-4 overflow-hidden bg-couture-lightGold sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
           <Image
             className="absolute left-1/2 top-0 translate-x-[-10%] translate-y-[-45%] lg:translate-x-[-32%] opacity-40 blur-sm"
-            src={backgroundImage}
-            alt=""
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1662658746/S%C3%B8strene%20Hals/SHwhitelogo_up7mbt.svg"
+            alt="Søstrene Hals logo"
             width={919}
             height={1351}
             unoptimized
