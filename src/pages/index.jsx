@@ -4,8 +4,8 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Clients } from '@/components/Clients'
 import { Biography } from '@/components/Biography'
-
 import { Sisters } from '@/components/Sisters'
+import { PhotoGallery } from '@/components/PhotoGallery'
 import { Contact } from '@/components/Contact'
 
 export default function Home() {
@@ -28,6 +28,7 @@ export default function Home() {
         <Clients />
         <Biography />
         <Sisters />
+        <PhotoGallery />
         <Contact />
       </main>
       <Footer />
