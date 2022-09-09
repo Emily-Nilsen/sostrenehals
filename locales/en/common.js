@@ -1,5 +1,5 @@
 const common = {
-  heroTextOne: `Søstrene Hals like to start with the most beautiful classical pearls and end with the most challenging rhythms.`,
+  heroTextOne: `Søstrene Hals like to start with beautiful classical pearls and end with challenging rhythms.`,
   heroTextTwo: `They like to surprise.`,
   contactUs: `Contact`,
 }
