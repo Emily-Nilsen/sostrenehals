@@ -12,7 +12,7 @@ export function Header() {
         <div className="px-4 pt-4 mx-auto sm:pt-6">
         
         </div>
-        <div className="absolute w-full h-24">
+        <div className="absolute">
           <div className="flex items-center justify-start w-full h-full px-4 sm:px-8"><Image
                   className=""
                   src={logoWhite}
