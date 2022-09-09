@@ -1,8 +1,6 @@
 import Image from 'next/future/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoWhiteLong from '@/images/logos/whiteLogo.svg'
-import logoWhiteSmall from '@/images/logos/SHwhiteLogo.svg'
 import { LanguageButton } from '@/components/LanguageButton'
 
 export function Header() {
@@ -12,7 +10,7 @@ export function Header() {
       <div className="absolute">
         <div className="items-center justify-start hidden w-full h-full px-4 sm:px-8 md:flex">
           <Image
-            src={logoWhiteLong}
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1662658748/S%C3%B8strene%20Hals/whiteLogo_ly1puy.svg"
             width={175}
             height={35}
             alt="Søstrene Hals logo"
@@ -20,7 +18,7 @@ export function Header() {
         </div>
         <div className="flex items-center justify-start w-full h-full px-4 sm:px-8 md:hidden">
           <Image
-            src={logoWhiteSmall}
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1662658746/S%C3%B8strene%20Hals/SHwhitelogo_up7mbt.svg"
             width={30}
             height={30}
             alt="Søstrene Hals logo"
