@@ -4,7 +4,7 @@ import backgroundImage from '@/images/logos/lightGoldLogo.svg'
 
 export function Sisters() {
   return (
-    <div className="relative py-16 overflow-hidden bg-white lg:py-24">
+    <div className="relative pt-8 pb-12 overflow-hidden bg-white sm:py-16 lg:py-24">
       <div className="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full">
         <div className="relative h-full mx-auto text-lg max-w-prose" aria-hidden="true">
           
@@ -17,16 +17,11 @@ export function Sisters() {
         
         <div className="mx-auto mt-6 text-lg prose prose-lg text-couture-darkGold/90 font-display prose-indigo">
           
-          <h2 className="text-4xl font-medium tracking-tighter text-couture-darkGold sm:text-5xl contrast-200">Susanne</h2>
+          <h2 className="mb-6 text-4xl font-medium tracking-tighter text-couture-darkGold sm:text-5xl contrast-200">Susanne</h2>
           <p>
           Susanne Hvinden Hals er en sopran utdannet ved Griegakademiet i Bergen og ved Det kongelige Danske musikkonservatorium i København. Hun har gjennom årene sunget roller som Susanna i Mozarts «Le nozze di Figaro», Adele i «Die Fledermaus» m.m.
           </p>
-          {/* <blockquote>
-            <p>
-              Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-              pellentesque. Blandit amet, sed aenean erat arcu morbi.
-            </p>
-          </blockquote> */}
+          
           <p>
               I 2003 debuterte hun sammen med Det norske jentekor på Operaen i Montpellier i Frankrike. Hennes prestasjoner og profesjonelle sangferdigheter har ført til at Susanne er en svært ettertraktet sopran i Norge.
               </p>
@@ -35,15 +30,15 @@ export function Sisters() {
               </p>
           <figure>
             <Image
-              className="w-full rounded-lg lg:mt-16"
+              className="w-full rounded-lg mt-14 lg:mt-16"
               src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1662639618/S%C3%B8strene%20Hals/hals_ballroom_pg3dkp.webp"
               alt="Susanne og Kathrine Hvinden Hals"
               width={792}
               height={594}
             />
-            <figcaption className="flex items-center mt-3 text-couture-darkGold">Susanne og Kathrine Hvinden Hals</figcaption>
+            <figcaption className="flex items-center mt-3 -mb-6 text-couture-darkGold">Susanne og Kathrine Hvinden Hals</figcaption>
           </figure>
-          <h2 className="text-4xl font-medium tracking-tighter text-couture-darkGold sm:text-5xl contrast-200">Kathrine</h2>
+          <h2 className="mb-6 text-4xl font-medium tracking-tighter text-couture-darkGold sm:text-5xl contrast-200">Kathrine</h2>
           <p>
           Kathrine Hvinden Hals er en klassisk fiolinist utdannet gjennom Barratt Dues Musikkinstitutt i Oslo og tok videre mastergrad ved Royal College of Music i London.
           </p>

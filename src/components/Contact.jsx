@@ -22,7 +22,7 @@ export function Contact() {
   return (
     <section id="contact" aria-label="Contact">
       <Container>
-        <div className="relative px-4 py-20 -mx-4 overflow-hidden bg-couture-lightGold/50 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
+        <div className="relative px-4 -mx-4 overflow-hidden py-14 sm:py-20 bg-couture-lightGold/50 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
           <Image
             className="absolute left-1/2 top-0 translate-x-[-10%] translate-y-[-45%] lg:translate-x-[-32%] opacity-60 blur-sm"
             src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1662658746/S%C3%B8strene%20Hals/SHwhitelogo_up7mbt.svg"
@@ -52,7 +52,7 @@ export function Contact() {
             <h3 className="text-lg font-semibold tracking-tight text-couture-darkGold contrast-200">
                 Ring oss <span aria-hidden="true">&darr;</span>
               </h3>
-              <a className="flex px-6 py-4 mt-5 transition duration-300 ease-in-out shadow-xl hover:bg-white/100 rounded-3xl bg-white/50 shadow-couture-darkGold/5 text-couture-darkGold group" href="tel:45506256" rel="noopener noreferrer">
+              <a className="flex px-6 py-4 mt-5 transition duration-300 ease-in-out shadow-xl hover:bg-white/100 rounded-3xl bg-white/50 shadow-couture-darkGold/5 text-couture-darkGold group" href="tel:+4745506256" rel="noopener noreferrer">
                 <div className="w-full h-full overflow-hidden ">
                   <dt className="sr-only">Phone number</dt>
                   <dd className="flex items-center">
@@ -65,9 +65,9 @@ export function Contact() {
                 </div>
               </a>
               <h3 className="mt-10 text-lg font-semibold tracking-tight text-couture-darkGold contrast-200">
-                Sende oss en e-post <span aria-hidden="true">&darr;</span>
+                Send oss en e-post <span aria-hidden="true">&darr;</span>
               </h3>
-              <a className="flex px-6 py-4 mt-5 transition duration-300 ease-in-out shadow-xl hover:bg-white/100 rounded-3xl bg-white/50 shadow-couture-darkGold/5 text-couture-darkGold group" href="mailto:cairnshs@bigpond.com"
+              <a className="flex px-6 py-4 mt-5 transition duration-300 ease-in-out shadow-xl hover:bg-white/100 rounded-3xl bg-white/50 shadow-couture-darkGold/5 text-couture-darkGold group" href="mailto:something@gmail.com"
                 rel="noopener noreferrer"
                 target="_blank"><div className="group">
                 <dt className="sr-only">Email</dt>

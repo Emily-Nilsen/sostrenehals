@@ -3,11 +3,13 @@ import logoNutmegLong from '@/images/logos/nutmegLogoLong.svg'
 import Image from 'next/image'
 import { Logo } from '@/components/Logo'
 import {SocialLinks} from '@/components/SocialLinks'
+import {ToTopButton} from '@/components/Button'
 
 export function Footer() {
   return (
     <footer className="py-16 font-display">
       <Container className="flex flex-col items-center justify-between md:flex-row">
+        <ToTopButton href="/">
       <div className="relative h-full pr-1">
                 <Image
                   src={logoNutmegLong}
@@ -16,6 +18,7 @@ export function Footer() {
                   alt="Søstrene Hals logo"
                 />
               </div>
+              </ToTopButton>
               <SocialLinks/>
         <p className="mt-6 text-base text-nutmeg md:mt-0">
           Copyright &copy; {new Date().getFullYear()} Søstrene Hals

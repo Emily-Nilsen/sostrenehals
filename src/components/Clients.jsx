@@ -19,18 +19,18 @@ const clients = [
 
 export function Clients() {
   return (
-    <section id="clients" aria-label="Clients" className="py-20 sm:py-32">
+    <section id="clients" aria-label="Clients" className="pt-24 pb-20 sm:py-32">
       <Container>
-        <h2 className="max-w-2xl mx-auto text-4xl font-medium tracking-tighter text-center font-display text-couture-darkGold sm:text-5xl contrast-150">
+        <h2 className="max-w-2xl mx-auto text-3xl font-medium tracking-tighter text-center sm:text-4xl font-display text-couture-darkGold md:text-5xl contrast-150">
           Utvalgte oppdragsgivere
         </h2>
-        <div className="grid grid-cols-1 mx-auto mt-20 max-w-max place-content-center gap-y-12 gap-x-32 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
+        <div className="grid grid-cols-1 mx-auto mt-12 sm:mt-20 max-w-max place-content-center gap-y-6 sm:gap-y-12 gap-x-32 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
           {clients.map((client) => (
             <div
               key={client.name}
               className="flex items-center justify-center"
             >
-              <Image src={client.logo} alt={client.name} unoptimized />
+              <Image className="sm:h-full h-2/3" src={client.logo} alt={client.name} unoptimized />
             </div>
           ))}
         </div>
