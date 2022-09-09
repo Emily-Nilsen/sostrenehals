@@ -2,6 +2,8 @@ import Image from 'next/future/image'
 import { AtSymbolIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
+import { motion } from 'framer-motion'
+import useTranslation from 'next-translate/useTranslation'
 
 function ArrowRightIcon(props) {
   return (
@@ -19,10 +21,24 @@ function ArrowRightIcon(props) {
 }
 
 export function Contact() {
+  const { t } = useTranslation()
+
   return (
     <section id="contact" aria-label="Contact">
       <Container>
-        <div className="relative px-4 -mx-4 overflow-hidden bg-couture-lightGold/50 py-14 sm:-mx-6 sm:py-20 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
+        <motion.div
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{
+            opacity: 0,
+            y: 50,
+          }}
+          transition={{
+            delay: 0.5,
+            duration: 1,
+            type: 'fade',
+          }}
+          className="relative px-4 -mx-4 overflow-hidden bg-couture-lightGold/50 py-14 sm:-mx-6 sm:py-20 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36"
+        >
           <Image
             className="absolute left-1/2 top-0 translate-x-[-10%] translate-y-[-45%] opacity-60 blur-sm lg:translate-x-[-32%]"
             src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1662658746/S%C3%B8strene%20Hals/SHwhitelogo_up7mbt.svg"
@@ -33,7 +49,7 @@ export function Contact() {
           />
           <div className="relative grid max-w-2xl grid-cols-1 mx-auto gap-x-32 gap-y-14 font-display xl:max-w-none xl:grid-cols-2">
             <div>
-              <p className="text-4xl font-semibold tracking-tighter text-couture-darkGold contrast-150 sm:text-5xl">
+              <p className="text-4xl font-medium tracking-tighter text-couture-darkGold contrast-200 sm:text-5xl">
                 Ta kontakt
               </p>
               <p className="mt-4 text-lg tracking-tight text-couture-darkGold">
@@ -98,7 +114,7 @@ export function Contact() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </Container>
     </section>
   )

@@ -1,7 +1,11 @@
 import Image from 'next/future/image'
 import { Container } from '@/components/Container'
+import { motion } from 'framer-motion'
+import useTranslation from 'next-translate/useTranslation'
 
 export function Biography() {
+  const { t } = useTranslation()
+
   return (
     <div className="relative pb-10 bg-gradient-to-tr from-nutmeg to-couture-darkGold lg:pb-0">
       {/* Background Image */}
@@ -22,28 +26,53 @@ export function Biography() {
         <div className="relative px-4 pt-12 pb-16 sm:px-6 sm:pt-16 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:pb-24 lg:pt-24">
           <div className="lg:col-start-2 lg:pl-8">
             <div className="mx-auto text-base max-w-prose lg:ml-auto lg:mr-0 lg:max-w-lg">
-              <h1 className="inline mt-2 text-5xl font-semibold leading-8 tracking-tight text-transparent text-white font-display brightness-110 sm:text-6xl">
+              <h1 className="inline mt-2 text-5xl font-medium leading-8 tracking-tight text-transparent text-white font-display brightness-110 sm:text-6xl">
                 Søstrene Hals
               </h1>
-              <p className="mt-8 text-lg font-display text-white/70">
+              <motion.p
+                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+                className="mt-8 text-lg font-display text-white/70"
+              >
                 Søstrene Hals består av Kathrine og Susanne Hvinden Hals. De har
                 vokst opp i Oslo. Fra de var små har de gått på Barratt Dues
                 musikkinstitutt. Begge har senere master i musikk og opera fra
                 Royal College of music i London og Det kongelige Danske
                 musikkonservatorium i København.
-              </p>
+              </motion.p>
               <div className="mt-5 text-lg prose font-display text-white/70">
-                <p>
+                <motion.p
+                  whileInView={{ opacity: 1 }}
+                  initial={{ opacity: 0 }}
+                  transition={{
+                    delay: 0.5,
+                    duration: 1,
+                    type: 'fade',
+                  }}
+                >
                   De har spilt sammen siden de var små og har opptrådt i både
                   inn – og utland. Siden 2013 har de hatt en årlig julekonsert i
                   Majorstuen kirke som er veldig populær.
-                </p>
-                <p>
+                </motion.p>
+                <motion.p
+                  whileInView={{ opacity: 1 }}
+                  initial={{ opacity: 0 }}
+                  transition={{
+                    delay: 0.5,
+                    duration: 1,
+                    type: 'fade',
+                  }}
+                >
                   Selv om de begge er spesialisert i klassisk musikk brenner de
                   også for flere sjangre, blant annet crossovers. Det kan
                   begynne med de vakreste klassiske perler som ender i de
                   tøffeste rytmer. De liker å overraske.
-                </p>
+                </motion.p>
               </div>
             </div>
           </div>
