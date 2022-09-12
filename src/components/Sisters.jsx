@@ -42,10 +42,7 @@ export function Sisters() {
               type: 'fade',
             }}
           >
-            Susanne Hvinden Hals er en sopran utdannet ved Griegakademiet i
-            Bergen og ved Det kongelige Danske musikkonservatorium i København.
-            Hun har gjennom årene sunget roller som Susanna i Mozarts «Le nozze
-            di Figaro», Adele i «Die Fledermaus» m.m.
+            {t('common:susanneLine1')}
           </motion.p>
 
           <motion.p
@@ -57,10 +54,7 @@ export function Sisters() {
               type: 'fade',
             }}
           >
-            I 2003 debuterte hun sammen med Det norske jentekor på Operaen i
-            Montpellier i Frankrike. Hennes prestasjoner og profesjonelle
-            sangferdigheter har ført til at Susanne er en svært ettertraktet
-            sopran i Norge.
+            {t('common:susanneLine2')}
           </motion.p>
           <motion.p
             whileInView={{ opacity: 1 }}
@@ -71,9 +65,7 @@ export function Sisters() {
               type: 'fade',
             }}
           >
-            Dessuten synger hun ofte med kor og orkestre som solist i Oratorier,
-            deltatt på forskjellige festivaler og konserter i Norge og i
-            utlandet, som Málaga Clásica i Spania.
+            {t('common:susanneLine3')}
           </motion.p>
           <motion.figure
             whileInView={{ opacity: 1 }}
@@ -92,7 +84,7 @@ export function Sisters() {
               height={594}
             />
             <figcaption className="flex items-center mt-3 -mb-6 text-couture-darkGold">
-              Susanne og Kathrine Hvinden Hals
+              {t('common:commonBioImageText')}
             </figcaption>
           </motion.figure>
           <h2 className="mb-6 text-4xl font-medium tracking-tighter text-couture-darkGold contrast-200 sm:text-5xl">

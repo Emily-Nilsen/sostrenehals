@@ -50,25 +50,23 @@ export function Contact() {
           <div className="relative grid max-w-2xl grid-cols-1 mx-auto gap-x-32 gap-y-14 font-display xl:max-w-none xl:grid-cols-2">
             <div>
               <p className="text-4xl font-medium tracking-tighter text-couture-darkGold contrast-200 sm:text-5xl">
-                Ta kontakt
+                {t('common:contactTitle')}
               </p>
               <p className="mt-4 text-lg tracking-tight text-couture-darkGold">
-                Engasjer Søstrene Hals til ditt neste arrangement og gjør dette
-                til en uforglemmelig opplevelse.
+                {t('common:contactLine1')}
               </p>
               <p className="mt-4 text-lg tracking-tight text-couture-darkGold">
-                Ring oss eller ta kontakt via e-post, så kommer vi tilbake til
-                deg så snart som mulig.
+                {t('common:contactLine2')}
               </p>
               <p className="mt-4 text-lg tracking-tight text-couture-darkGold">
-                Vi gleder oss til å høre fra deg!
+                {t('common:contactLine3')}
               </p>
             </div>
             <div>
               <div>
                 <dl>
                   <h3 className="text-lg font-semibold tracking-tight text-couture-darkGold contrast-200">
-                    Ring oss <span aria-hidden="true">&darr;</span>
+                    {t('common:ringUs')} <span aria-hidden="true">&darr;</span>
                   </h3>
                   <a
                     className="flex px-6 py-4 mt-5 transition duration-300 ease-in-out shadow-xl group rounded-3xl bg-white/50 text-couture-darkGold shadow-couture-darkGold/5 hover:bg-white/100"
@@ -89,7 +87,7 @@ export function Contact() {
                     </div>
                   </a>
                   <h3 className="mt-10 text-lg font-semibold tracking-tight text-couture-darkGold contrast-200">
-                    Send oss en e-post <span aria-hidden="true">&darr;</span>
+                    {t('common:emailUs')} <span aria-hidden="true">&darr;</span>
                   </h3>
                   <a
                     className="flex px-6 py-4 mt-5 transition duration-300 ease-in-out shadow-xl group rounded-3xl bg-white/50 text-couture-darkGold shadow-couture-darkGold/5 hover:bg-white/100"
