@@ -48,6 +48,9 @@ const common = {
   contactLine3: `Vi gleder oss til å høre fra deg!`,
   ringUs: `Ring oss`,
   emailUs: `Send oss en e-post`,
+
+  // Meta tags
+  metaDescription: `En norsk søsken duo som holder til i Oslo. Sopran og fiolin som tar utgangspunkt i de virtuose og vake klassiske melodier og ender i de tøffeste rytmer. De liker å overraske.`,
 }
 
 export default common

@@ -29,6 +29,9 @@ const common = {
   contactLine3: `We look forward to hearing from you!`,
   ringUs: `Call us`,
   emailUs: `Send us an email`,
+
+  // Meta tags
+  metaDescription: `Søstrene Hals is a Norwegian sibling duo based in Oslo. This soprano and violin duette starts with virtuosic classical melodies and ends with the most demanding rhythms; They like to surprise you.`,
 }
 
 export default common
