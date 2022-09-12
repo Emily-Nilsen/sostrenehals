@@ -18,9 +18,8 @@ const common = {
   susanneLine3: `Susanne is a regular soloist with choirs and orchestras in Oratories and performs at various festivals and concerts in Norway and abroad, including regular involvement at the Málaga Clásica festival in Spain.`,
 
   // Kathrine bio
-  kathrineLine1: ``,
-  kathrineLine2: ``,
-  kathrineLine3: ``,
+  kathrineLine1: `Kathrine Hvinden Hals is a trained violinist from the Barratt Due Institute of Music in Oslo and the Royal College of Music in London. Over the years, she has won several prizes, including multiple first prizes at the Norwegian Music Championship. Kathrine has also participated in several music festivals, including Valdres Summer symphony and the Margess International Music Festival in Switzerland. She also teaches music both in Norway and abroad.`,
+  kathrineLine2: `Kathrine toured the country as a soloist with Kjetil Vea's "Andante" in 2003/2004". Later, she participated in Alexander Rybak's international concert tour in the wake of the Grand Prix victory in 2010. Kathrine has had several solo assignments for various orchestras and performs regularly at public and private events.`,
 
   // Contact info
   contactTitle: `Get in touch`,

@@ -36,9 +36,8 @@ const common = {
   Clásica i Spania.`,
 
   // Kathrine bio
-  kathrineLine1: ``,
-  kathrineLine2: ``,
-  kathrineLine3: ``,
+  kathrineLine1: `Kathrine Hvinden Hals er utdannet fiolinist fra Barratt Dues Musikkinstitutt i Oslo og Royal College of Music i London. Hun har gjennom årene vunnet en rekke priser herunder flere 1. priser i Norges musikkmesterskap, deltatt på flere musikkfestivaler herunder Valdres sommersymfoni og Margess internasjonale musikkfestival i Sveits. Hun jobber også med undervisning både i Norge og i utlandet.`,
+  kathrineLine2: `Kathrine turnerte landet rundt som solist med Kjetil Veas «Andante» i 2003/2004». Hun deltok på Alexander Rybaks internasjonale konsertturne i kjølvannet av Grand Prix seieren i 2010. Kathrine har hatt en rekke solistoppdrag for ulike orkestre  og opptrer regelmessig på offentlige og private arrangementer.`,
 
   // Contact info
   contactTitle: `Ta kontakt`,

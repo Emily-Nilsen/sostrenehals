@@ -99,9 +99,7 @@ export function Sisters() {
               type: 'fade',
             }}
           >
-            Kathrine Hvinden Hals er en klassisk fiolinist utdannet gjennom
-            Barratt Dues Musikkinstitutt i Oslo og tok videre mastergrad ved
-            Royal College of Music i London.
+            {t('common:kathrineLine1')}
           </motion.p>
           <motion.p
             whileInView={{ opacity: 1 }}
@@ -112,22 +110,7 @@ export function Sisters() {
               type: 'fade',
             }}
           >
-            Hun har gjennom årene vunnet en rekke priser, deltatt på flere
-            musikkfestivaler og undervist på kurs både her hjemme og i utlandet.
-          </motion.p>
-          <motion.p
-            whileInView={{ opacity: 1 }}
-            initial={{ opacity: 0 }}
-            transition={{
-              delay: 0.5,
-              duration: 1,
-              type: 'fade',
-            }}
-          >
-            Kathrine var også invitert med til Alexander Rybaks internasjonale
-            konsertturne i kjølvannet av Grand Prix seieren i 2010. Ved siden av
-            sin klassiske utdannelse opptrer hun stadig på offentlige og private
-            arrangementer.
+            {t('common:kathrineLine2')}
           </motion.p>
         </div>
       </div>
