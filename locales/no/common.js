@@ -49,7 +49,7 @@ const common = {
   emailUs: `Send oss en e-post`,
 
   // Meta tags
-  metaDescription: `En norsk søsken duo som holder til i Oslo. Sopran og fiolin som tar utgangspunkt i de virtuose og vake klassiske melodier og ender i de tøffeste rytmer. De liker å overraske.`,
+  metaDescription: `En norsk søsken duo som holder til i Oslo. Søstrene Hals er en sopran- og fiolinduo med et reportoire som strekker seg fra klassiske perler til ovveraskende tøffe rytmer.`,
 }
 
 export default common
