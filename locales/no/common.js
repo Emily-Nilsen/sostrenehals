@@ -7,18 +7,12 @@ const common = {
   pastClients: `Utvalgte oppdragsgivere`,
 
   // Common bio
-  commonBioLine1: `Søstrene Hals består av Kathrine og Susanne Hvinden Hals. De har
-  vokst opp i Oslo. Fra de var små har de gått på Barratt Dues
-  musikkinstitutt. Begge har senere master i musikk og opera fra
-  Royal College of music i London og Det kongelige Danske
-  musikkonservatorium i København.`,
-  commonBioLine2: `De har spilt sammen siden de var små og har opptrådt i både
-  inn – og utland. Siden 2013 har de hatt en årlig julekonsert i
-  Majorstuen kirke som er veldig populær.`,
-  commonBioLine3: `Selv om de begge er spesialisert i klassisk musikk brenner de
-  også for flere sjangre, blant annet crossovers. Det kan
-  begynne med de vakreste klassiske perler som ender i de
-  tøffeste rytmer. De liker å overraske.`,
+  commonBioLine1: `Søstrene Hals består av Kathrine og Susanne Hvinden Hals.
+  De har vokst opp i Oslo. Fra barnsbena her de gått på Barratt Dues musikkinstitutt og var tilknyttet talentprogrammet der. Begge har senere master fra Royal College of Music i London og det Kongelige danske musikkkomservatorium i København.`,
+  commonBioLine2: `Sammen har de opptrådt i både inn og utland.
+  Siden 2013 har deres årlige julekonsert vært veldig populær.`,
+  commonBioLine3: `Begge er spesialisert i klassisk musikk, men brenner også for flere sjangre, bland annet crossovers. Det kan begynne med de vakreste klassiske perler som ender i de tøffeste rytmer. Søstrene Hals liker å overraske.`,
+
   commonBioImageText: `Susanne og Kathrine Hvinden Hals`,
 
   // Susanne bio

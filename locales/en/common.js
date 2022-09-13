@@ -7,9 +7,10 @@ const common = {
   pastClients: `Some of our clients`,
 
   // Common bio
-  commonBioLine1: `Søstrene Hals consist of Kathrine and Susanne Hvinden Hals. Both sisters have master's degrees in music and opera from the Royal College of Music in London and The Royal Danish Academy of Music in Copenhagen. From an early age, they both attended Barratt Due Institute of Music. They grew up in Oslo.`,
-  commonBioLine2: `They have played together since they were young and have performed both at home and abroad. Since 2013, Søstrene Hals have had an annual Christmas concert in Majorstuen church which is very popular.`,
-  commonBioLine3: `Although they specialize in classical music, they are passionate about several genres, including crossovers. Their performances can start with the most beautiful classical pearls that end in the most demanding rhythms. They like to surprise you.`,
+  commonBioLine1: `Søstrene Hals consist of Kathrine and Susanne Hvinden Hals. They grew up in Oslo. From an early age, they both attended Barratt Due Institute of Music. Now, both sisters have master's degrees in music and opera from the Royal College of Music in London and The Royal Danish Academy of Music in Copenhagen. `,
+  commonBioLine2: `They have played together since they were young and have performed both at home and abroad. Since 2013, Søstrene Hals have had an annual Christmas concert in Majorstuen Church which is very popular.`,
+  commonBioLine3: `Although they specialize in classical music, they are passionate about several genres, including crossovers. Their performances can start with the most beautiful classical pearls and end with the most demanding rhythms. Søstrene Hals like to surprise you.`,
+
   commonBioImageText: `Susanne and Kathrine Hvinden Hals`,
 
   // Susanne bio
@@ -30,7 +31,7 @@ const common = {
   emailUs: `Send us an email`,
 
   // Meta tags
-  metaDescription: `Søstrene Hals is a Norwegian sibling duo based in Oslo. This soprano and violin duo starts with virtuosic classical melodies and ends with the most demanding rhythms; They like to surprise you.`,
+  metaDescription: `Søstrene Hals is a Norwegian sibling soprano and violin duo based in Oslo. Their repertoire ranges from classical gems to surprisingly challenging rhythms.`,
 }
 
 export default common
