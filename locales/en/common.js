@@ -8,7 +8,7 @@ const common = {
 
   // Common bio
   commonBioLine1: `Søstrene Hals consist of Kathrine and Susanne Hvinden Hals. They grew up in Oslo. From an early age, they both attended Barratt Due Institute of Music. Now, both sisters have master's degrees in music and opera from the Royal College of Music in London and The Royal Danish Academy of Music in Copenhagen. `,
-  commonBioLine2: `They have played together since they were young and have performed both at home and abroad. Since 2013, Søstrene Hals have had an annual Christmas concert in Majorstuen Church which is very popular.`,
+  commonBioLine2: `They have played together since they were young and have performed both at home and abroad. Since 2013, Søstrene Hals have had a very popular annual Christmas concert.`,
   commonBioLine3: `Although they specialize in classical music, they are passionate about several genres, including crossovers. Their performances can start with the most beautiful classical pearls and end with the most demanding rhythms. Søstrene Hals like to surprise you.`,
 
   commonBioImageText: `Susanne and Kathrine Hvinden Hals`,
