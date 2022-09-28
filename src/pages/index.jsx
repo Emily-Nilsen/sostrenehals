@@ -7,6 +7,7 @@ import { Biography } from '@/components/Biography'
 import { Sisters } from '@/components/Sisters'
 import { PhotoGallery } from '@/components/PhotoGallery'
 import { Contact } from '@/components/Contact'
+import { PhotoCollage } from '@/components/PhotoCollage'
 import useTranslation from 'next-translate/useTranslation'
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
         <Sisters />
         <PhotoGallery />
         <Contact />
+        <PhotoCollage />
       </main>
       <Footer />
     </>
