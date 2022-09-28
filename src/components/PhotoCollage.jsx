@@ -27,7 +27,7 @@ export function PhotoCollage() {
               }}
               className="w-1/2 p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden rounded-lg">
+              <div className="block object-cover object-center w-full h-full overflow-hidden md:rounded-lg md:rounded-tl-5xl">
                 <Image
                   width={1500}
                   height={1000}
@@ -51,7 +51,7 @@ export function PhotoCollage() {
               }}
               className="w-1/2 p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden rounded-lg">
+              <div className="block object-cover object-center w-full h-full overflow-hidden md:rounded-lg">
                 <Image
                   width={1500}
                   height={1000}
@@ -75,7 +75,7 @@ export function PhotoCollage() {
               }}
               className="w-full p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden rounded-lg">
+              <div className="block object-cover object-center w-full h-full overflow-hidden md:rounded-lg md:rounded-bl-5xl">
                 <Image
                   width={1500}
                   height={1000}
@@ -101,7 +101,7 @@ export function PhotoCollage() {
               }}
               className="w-full p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden rounded-lg">
+              <div className="block object-cover object-center w-full h-full overflow-hidden md:rounded-lg md:rounded-tr-5xl">
                 <Image
                   width={1500}
                   height={1000}
@@ -125,7 +125,7 @@ export function PhotoCollage() {
               }}
               className="w-1/2 p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden rounded-lg">
+              <div className="block object-cover object-center w-full h-full overflow-hidden md:rounded-lg">
                 <Image
                   width={1500}
                   height={1000}
@@ -149,7 +149,7 @@ export function PhotoCollage() {
               }}
               className="w-1/2 p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden rounded-lg">
+              <div className="block object-cover object-center w-full h-full overflow-hidden md:rounded-lg md:rounded-br-5xl">
                 <Image
                   width={1500}
                   height={1000}

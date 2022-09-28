@@ -18,7 +18,7 @@ export function PhotoGallery() {
           'https://res.cloudinary.com/dt3k2apqd/image/upload/v1662744958/S%C3%B8strene%20Hals/image4_z4kj1w.jpg',
         ].map((image, imageIndex) => (
           <div
-            key={image.src}
+            key={imageIndex}
             className={clsx(
               'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
               rotations[imageIndex % rotations.length]
