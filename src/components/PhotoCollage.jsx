@@ -7,7 +7,7 @@ const image_2 = `https://res.cloudinary.com/dt3k2apqd/image/upload/v1664354991/S
 const image_3 = `https://res.cloudinary.com/dt3k2apqd/image/upload/v1664354991/S%C3%B8strene%20Hals/image6_c7iw3z.jpg`
 const image_4 = `https://res.cloudinary.com/dt3k2apqd/image/upload/v1664354990/S%C3%B8strene%20Hals/image5_o3p0ja.jpg`
 const image_5 = `https://res.cloudinary.com/dt3k2apqd/image/upload/v1664354990/S%C3%B8strene%20Hals/image8_ef9vge.jpg`
-const image_6 = `https://res.cloudinary.com/dt3k2apqd/image/upload/v1662744958/S%C3%B8strene%20Hals/image1_ijhoiz.jpg`
+const image_6 = `https://res.cloudinary.com/dt3k2apqd/image/upload/v1665483758/S%C3%B8strene%20Hals/image4_z4kj1w_wicivp.webp`
 
 export function PhotoCollage() {
   return (
