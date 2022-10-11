@@ -8,20 +8,20 @@ export function Sisters() {
   const { t } = useTranslation()
 
   return (
-    <div className="relative pt-8 pb-12 overflow-hidden bg-white sm:py-16 lg:py-24">
+    <div className="relative overflow-hidden bg-white pt-8 pb-12 sm:py-16 lg:py-24">
       <div className="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full">
         <div
-          className="relative h-full mx-auto text-lg max-w-prose"
+          className="relative mx-auto h-full max-w-prose text-lg"
           aria-hidden="true"
         >
           <Image
-            className="absolute transform translate-x-20 opacity-50 top-12 left-full blur-sm"
+            className="absolute top-12 left-full translate-x-20 transform opacity-50 blur-sm"
             src={backgroundImage}
             alt="logo"
             unoptimized
           />
           <Image
-            className="absolute transform -translate-x-20 -translate-y-1/2 opacity-50 top-1/2 right-full blur-sm"
+            className="absolute top-1/2 right-full -translate-x-20 -translate-y-1/2 transform opacity-50 blur-sm"
             src={backgroundImage}
             alt="logo"
             unoptimized
@@ -29,7 +29,7 @@ export function Sisters() {
         </div>
       </div>
       <div className="relative px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto mt-6 text-lg prose prose-lg prose-indigo font-display text-couture-darkGold/90">
+        <div className="prose prose-lg prose-indigo mx-auto mt-6 font-display text-lg text-couture-darkGold/90">
           <h2 className="mb-6 text-4xl font-medium tracking-tighter text-couture-darkGold contrast-200 sm:text-5xl">
             Susanne
           </h2>
@@ -77,13 +77,14 @@ export function Sisters() {
             }}
           >
             <Image
-              className="w-full rounded-lg mt-14 lg:mt-16"
+              className="mt-14 w-full rounded-lg lg:mt-16"
               src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1662639618/S%C3%B8strene%20Hals/hals_ballroom_pg3dkp.webp"
               alt="Susanne og Kathrine Hvinden Hals"
               width={792}
               height={594}
+              unoptimized
             />
-            <figcaption className="flex items-center mt-3 -mb-6 text-couture-darkGold">
+            <figcaption className="mt-3 -mb-6 flex items-center text-couture-darkGold">
               {t('common:commonBioImageText')}
             </figcaption>
           </motion.figure>

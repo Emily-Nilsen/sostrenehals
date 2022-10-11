@@ -11,11 +11,11 @@ const image_6 = `https://res.cloudinary.com/dt3k2apqd/image/upload/v1665483758/S
 
 export function PhotoCollage() {
   return (
-    <section className="pt-20 overflow-hidden lg:pt-24">
+    <section className="overflow-hidden pt-20 lg:pt-24">
       <Container>
         {/* Large screens */}
-        <div className="flex-wrap hidden -m-1 md:-m-2 md:flex">
-          <div className="flex flex-wrap w-1/2">
+        <div className="-m-1 hidden flex-wrap md:-m-2 md:flex">
+          <div className="flex w-1/2 flex-wrap">
             <motion.div
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
@@ -27,7 +27,7 @@ export function PhotoCollage() {
               }}
               className="w-1/2 p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden md:rounded-lg md:rounded-tl-5xl">
+              <div className="block h-full w-full overflow-hidden object-cover object-center md:rounded-lg md:rounded-tl-5xl">
                 <Image
                   width={1500}
                   height={1000}
@@ -51,7 +51,7 @@ export function PhotoCollage() {
               }}
               className="w-1/2 p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden md:rounded-lg">
+              <div className="block h-full w-full overflow-hidden object-cover object-center md:rounded-lg">
                 <Image
                   width={1500}
                   height={1000}
@@ -75,7 +75,7 @@ export function PhotoCollage() {
               }}
               className="w-full p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden md:rounded-lg md:rounded-bl-5xl">
+              <div className="block h-full w-full overflow-hidden object-cover object-center md:rounded-lg md:rounded-bl-5xl">
                 <Image
                   width={1500}
                   height={1000}
@@ -89,7 +89,7 @@ export function PhotoCollage() {
               </div>
             </motion.div>
           </div>
-          <div className="flex flex-wrap w-1/2">
+          <div className="flex w-1/2 flex-wrap">
             <motion.div
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
@@ -101,7 +101,7 @@ export function PhotoCollage() {
               }}
               className="w-full p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden md:rounded-lg md:rounded-tr-5xl">
+              <div className="block h-full w-full overflow-hidden object-cover object-center md:rounded-lg md:rounded-tr-5xl">
                 <Image
                   width={1500}
                   height={1000}
@@ -125,7 +125,7 @@ export function PhotoCollage() {
               }}
               className="w-1/2 p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden md:rounded-lg">
+              <div className="block h-full w-full overflow-hidden object-cover object-center md:rounded-lg">
                 <Image
                   width={1500}
                   height={1000}
@@ -149,7 +149,7 @@ export function PhotoCollage() {
               }}
               className="w-1/2 p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden md:rounded-lg md:rounded-br-5xl">
+              <div className="block h-full w-full overflow-hidden object-cover object-center md:rounded-lg md:rounded-br-5xl">
                 <Image
                   width={1500}
                   height={1000}
@@ -165,8 +165,8 @@ export function PhotoCollage() {
           </div>
         </div>
         {/* Small screens */}
-        <div className="flex flex-wrap -m-1 md:-m-2 md:hidden">
-          <div className="flex flex-wrap w-full">
+        <div className="-m-1 flex flex-wrap md:-m-2 md:hidden">
+          <div className="flex w-full flex-wrap">
             <motion.div
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
@@ -178,7 +178,7 @@ export function PhotoCollage() {
               }}
               className="w-1/2 p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden rounded-2xl">
+              <div className="block h-full w-full overflow-hidden rounded-2xl object-cover object-center">
                 <Image
                   width={1500}
                   height={1000}
@@ -202,7 +202,7 @@ export function PhotoCollage() {
               }}
               className="w-1/2 p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden rounded-2xl">
+              <div className="block h-full w-full overflow-hidden rounded-2xl object-cover object-center">
                 <Image
                   width={1500}
                   height={1000}
@@ -226,7 +226,7 @@ export function PhotoCollage() {
               }}
               className="w-full p-2"
             >
-              <div className="block object-cover object-center w-full h-full overflow-hidden rounded-2xl">
+              <div className="block h-full w-full overflow-hidden rounded-2xl object-cover object-center">
                 <Image
                   width={1500}
                   height={1000}

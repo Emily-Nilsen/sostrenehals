@@ -8,8 +8,8 @@ export function PhotoGallery() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
 
   return (
-    <div className="w-screen mt-4 mb-20 overflow-y-visible scroll-my-0 sm:mt-6 sm:mb-24">
-      <div className="flex justify-center gap-5 py-4 -my-4 overflow-x-scroll scroll-my-0 sm:gap-8">
+    <div className="mt-4 mb-20 w-screen scroll-my-0 overflow-y-visible sm:mt-6 sm:mb-24">
+      <div className="-my-4 flex scroll-my-0 justify-center gap-5 overflow-x-scroll py-4 sm:gap-8">
         {[
           'https://res.cloudinary.com/dt3k2apqd/image/upload/v1665483758/S%C3%B8strene%20Hals/image1_ijhoiz_slz15r.webp',
           'https://res.cloudinary.com/dt3k2apqd/image/upload/v1665483758/S%C3%B8strene%20Hals/image2_bp8unj_fmjprr.webp',
@@ -30,7 +30,8 @@ export function PhotoGallery() {
               width={2048}
               height={1536}
               sizes="(min-width: 640px) 18rem, 11rem"
-              className="absolute inset-0 object-cover w-full h-full overflow-hidden overflow-x-hidden overflow-y-hidden"
+              className="absolute inset-0 h-full w-full overflow-hidden overflow-x-hidden overflow-y-hidden object-cover"
+              unoptimized
             />
           </div>
         ))}
