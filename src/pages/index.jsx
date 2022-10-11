@@ -2,6 +2,8 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import { MobileVideo } from '@/components/MobileVideo'
+import { DesktopVideo } from '@/components/DesktopVideo'
 import { Clients } from '@/components/Clients'
 import { Biography } from '@/components/Biography'
 import { Sisters } from '@/components/Sisters'
@@ -24,13 +26,21 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <Hero />
-        <Clients />
-        <Biography />
-        <Sisters />
-        <PhotoGallery />
-        <Contact />
-        <PhotoCollage />
+        <>
+          {/* <Hero /> */}
+          <div className="md:hidden">
+            <MobileVideo />
+          </div>
+          <div className="hidden md:block">
+            <DesktopVideo />
+          </div>
+          <Clients />
+          <Biography />
+          <Sisters />
+          <PhotoGallery />
+          <Contact />
+          <PhotoCollage />
+        </>
       </main>
       <Footer />
     </>
