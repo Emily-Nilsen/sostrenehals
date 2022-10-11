@@ -20,7 +20,7 @@ export function PhotoGallery() {
           <div
             key={imageIndex}
             className={clsx(
-              'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
+              'relative aspect-[9/10] w-44 flex-none overflow-hidden overflow-x-hidden overflow-y-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
               rotations[imageIndex % rotations.length]
             )}
           >
@@ -30,7 +30,7 @@ export function PhotoGallery() {
               width={2048}
               height={1536}
               sizes="(min-width: 640px) 18rem, 11rem"
-              className="absolute inset-0 object-cover w-full h-full"
+              className="absolute inset-0 object-cover w-full h-full overflow-hidden overflow-x-hidden overflow-y-hidden"
             />
           </div>
         ))}

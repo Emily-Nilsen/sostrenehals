@@ -4,8 +4,6 @@ import { Container } from '@/components/Container'
 import backgroundImage from '@/images/logos/SHwhitelogo.svg'
 import { motion } from 'framer-motion'
 import useTranslation from 'next-translate/useTranslation'
-import { DesktopVideo } from '@/components/DesktopVideo'
-import { MobileVideo } from '@/components/MobileVideo'
 
 export function Hero() {
   const { t } = useTranslation()
