@@ -27,13 +27,7 @@ export default function Home() {
       <Header />
       <main>
         <>
-          {/* <Hero /> */}
-          <div className="md:hidden">
-            <MobileVideo />
-          </div>
-          <div className="hidden md:block">
-            <DesktopVideo />
-          </div>
+          <Hero />
           <Clients />
           <Biography />
           <Sisters />

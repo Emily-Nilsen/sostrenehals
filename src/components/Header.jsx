@@ -2,20 +2,10 @@ import Image from 'next/future/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { LanguageButton } from '@/components/LanguageButton'
-import { motion } from 'framer-motion'
 
 export function Header() {
   return (
-    <motion.header
-      whileInView={{ opacity: 1 }}
-      initial={{ opacity: 0 }}
-      transition={{
-        delay: 7,
-        duration: 0.8,
-        type: 'fade',
-      }}
-      className="absolute top-0 left-0 z-50 flex items-center w-full py-6"
-    >
+    <header className="relative z-50 flex items-center py-6">
       <div className="relative px-4 pt-4 mx-auto sm:pt-6"></div>
       <div className="absolute">
         <div className="items-center justify-start hidden w-full h-full px-4 sm:px-8 md:flex">
@@ -40,6 +30,6 @@ export function Header() {
           <LanguageButton />
         </div>
       </div>
-    </motion.header>
+    </header>
   )
 }

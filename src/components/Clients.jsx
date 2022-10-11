@@ -23,7 +23,7 @@ export function Clients() {
   const { t } = useTranslation()
 
   return (
-    <section id="clients" aria-label="Clients" className="pt-16 pb-20 sm:py-24">
+    <section id="clients" aria-label="Clients" className="pt-24 pb-20 sm:py-32">
       <Container>
         <h2 className="max-w-2xl mx-auto text-3xl font-medium tracking-tighter text-center font-display text-couture-darkGold contrast-150 sm:text-4xl md:text-5xl">
           {t('common:pastClients')}
