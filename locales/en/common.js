@@ -32,6 +32,10 @@ const common = {
 
   // Meta tags
   metaDescription: `Søstrene Hals is a Norwegian sibling soprano and violin duo based in Oslo. Their repertoire ranges from classical gems to surprisingly challenging rhythms.`,
+
+  // Concerts
+  close: `Close`,
+  buy: `Buy tickets`,
 }
 
 export default common

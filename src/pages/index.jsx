@@ -8,6 +8,7 @@ import { Sisters } from '@/components/Sisters'
 import { PhotoGallery } from '@/components/PhotoGallery'
 import { Contact } from '@/components/Contact'
 import { PhotoCollage } from '@/components/PhotoCollage'
+import { Modal } from '@/components/Modal'
 import useTranslation from 'next-translate/useTranslation'
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
           <PhotoGallery />
           <Contact />
           <PhotoCollage />
+          <Modal />
         </>
       </main>
       <Footer />

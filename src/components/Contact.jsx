@@ -37,7 +37,7 @@ export function Contact() {
             duration: 1,
             type: 'fade',
           }}
-          className="relative px-4 -mx-4 overflow-hidden bg-couture-lightGold/50 py-14 sm:-mx-6 sm:py-20 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36"
+          className="relative -mx-4 overflow-hidden bg-couture-lightGold/50 px-4 py-14 sm:-mx-6 sm:py-20 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36"
         >
           <Image
             className="absolute left-1/2 top-0 translate-x-[-10%] translate-y-[-45%] opacity-60 blur-sm lg:translate-x-[-32%]"
@@ -47,7 +47,7 @@ export function Contact() {
             height={1351}
             unoptimized
           />
-          <div className="relative grid max-w-2xl grid-cols-1 mx-auto gap-x-32 gap-y-14 font-display xl:max-w-none xl:grid-cols-2">
+          <div className="relative mx-auto grid max-w-2xl grid-cols-1 gap-x-32 gap-y-14 font-display xl:max-w-none xl:grid-cols-2">
             <div>
               <p className="text-4xl font-medium tracking-tighter text-couture-darkGold contrast-200 sm:text-5xl">
                 {t('common:contactTitle')}
@@ -69,15 +69,15 @@ export function Contact() {
                     {t('common:ringUs')} <span aria-hidden="true">&darr;</span>
                   </h3>
                   <a
-                    className="flex px-6 py-4 mt-5 transition duration-300 ease-in-out shadow-xl group rounded-3xl bg-white/50 text-couture-darkGold shadow-couture-darkGold/5 hover:bg-white/100"
+                    className="group mt-5 flex rounded-3xl bg-white/50 px-6 py-4 text-couture-darkGold shadow-xl shadow-couture-darkGold/5 transition duration-300 ease-in-out hover:bg-white/100"
                     href="tel:+4745506256"
                     rel="noopener noreferrer"
                   >
-                    <div className="w-full h-full overflow-hidden ">
+                    <div className="h-full w-full overflow-hidden ">
                       <dt className="sr-only">Phone number</dt>
                       <dd className="flex items-center">
                         <PhoneIcon
-                          className="flex-shrink-0 w-6 h-6 transition duration-300 ease-in-out text-nutmeg group-hover:text-lipstick-light group-hover:brightness-150"
+                          className="h-6 w-6 flex-shrink-0 text-nutmeg transition duration-300 ease-in-out group-hover:text-lipstick-light group-hover:brightness-150"
                           aria-hidden="true"
                         />
                         <span className="ml-3 transition duration-300 ease-in-out group-hover:text-eyelashes">
@@ -90,7 +90,7 @@ export function Contact() {
                     {t('common:emailUs')} <span aria-hidden="true">&darr;</span>
                   </h3>
                   <a
-                    className="flex px-6 py-4 mt-5 transition duration-300 ease-in-out shadow-xl group rounded-3xl bg-white/50 text-couture-darkGold shadow-couture-darkGold/5 hover:bg-white/100"
+                    className="group mt-5 flex rounded-3xl bg-white/50 px-6 py-4 text-couture-darkGold shadow-xl shadow-couture-darkGold/5 transition duration-300 ease-in-out hover:bg-white/100"
                     href="mailto:sostrenehals@gmail.com"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -99,7 +99,7 @@ export function Contact() {
                       <dt className="sr-only">Email</dt>
                       <dd className="flex items-center">
                         <AtSymbolIcon
-                          className="flex-shrink-0 w-6 h-6 transition duration-300 ease-in-out text-nutmeg group-hover:text-lipstick-light group-hover:brightness-150"
+                          className="h-6 w-6 flex-shrink-0 text-nutmeg transition duration-300 ease-in-out group-hover:text-lipstick-light group-hover:brightness-150"
                           aria-hidden="true"
                         />
                         <span className="ml-3 transition duration-300 ease-in-out group-hover:text-eyelashes">
