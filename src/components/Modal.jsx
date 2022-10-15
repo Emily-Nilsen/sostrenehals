@@ -49,11 +49,12 @@ export function Modal() {
                 <div className="w-full h-full md:max-w-sm">
                   <div className="flex items-center justify-center w-full h-full mx-auto mb-4 overflow-hidden rounded-lg bg-nutmeg md:mt-10">
                     <Image
-                      src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1665822275/S%C3%B8strene%20Hals/Promos/Screenshot_on37jl.jpg"
+                      src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1665826997/S%C3%B8strene%20Hals/Promos/Screenshot_voozj9.webp"
                       alt="Julekonsert i Ris kirke, 2022"
                       width={900}
                       height={1600}
                       className="overflow-hidden rounded-lg"
+                      unoptimized
                     />
                   </div>
                 </div>
