@@ -5,7 +5,7 @@ import { LanguageButton } from '@/components/LanguageButton'
 
 export function Header() {
   return (
-    <header className="relative z-50 flex items-center py-6">
+    <header className="relative z-10 flex items-center py-6">
       <div className="relative px-4 pt-4 mx-auto sm:pt-6"></div>
       <div className="absolute">
         <div className="items-center justify-start hidden w-full h-full px-4 sm:px-8 md:flex">
