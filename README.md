@@ -1,8 +1,10 @@
 # Søstrene Hals
 
-Søstrene Hals is built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+Søstrene Hals is a music group landing page built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org). The bilingual site is available in English and Norwegian and includes the artists' biography, a photo gallery and booking information.
 
-## Getting started
+Here is a link to the [Søstrene Hals](https://sostrenehals.com) website.
+
+## Features
 
 To get started with this template, first install the npm dependencies:
 
@@ -16,12 +18,30 @@ Next, run the development server:
 npm run dev
 ```
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+## Technologies Used
 
-## Learn more
+The project is created with:
 
-To learn more about the technologies used in this site template, see the following resources:
+- Next.js - version 12.2
+- Tailwind CSS - version 3.1
+- Headless UI - version 1.6
+- Framer Motion - version 7.3
+- Next Translate - 1.5
 
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
+## Setup
+
+To run this project, first install the npm dependencies:
+
+```bash
+npm install
+```
+
+Next, run the development server:
+
+```bash
+npm run dev
+```
+
+## Contact
+
+Created by [Emily Nilsen](https://emilynilsen.com) - feel free to contact me!
