@@ -4,20 +4,6 @@ Søstrene Hals is a music group landing page built using [Tailwind CSS](https://
 
 Here is a link to the [Søstrene Hals](https://sostrenehals.com) website.
 
-## Features
-
-To get started with this template, first install the npm dependencies:
-
-```bash
-npm install
-```
-
-Next, run the development server:
-
-```bash
-npm run dev
-```
-
 ## Technologies Used
 
 The project is created with:
@@ -26,7 +12,7 @@ The project is created with:
 - Tailwind CSS - version 3.1
 - Headless UI - version 1.6
 - Framer Motion - version 7.3
-- Next Translate - 1.5
+- Next Translate - version 1.5
 
 ## Setup
 
