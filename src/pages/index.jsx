@@ -33,7 +33,7 @@ export default function Home() {
           <PhotoGallery />
           <Contact />
           <PhotoCollage />
-          <Modal />
+          {/* <Modal /> */}
         </>
       </main>
       <Footer />
