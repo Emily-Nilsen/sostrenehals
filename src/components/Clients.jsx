@@ -25,10 +25,10 @@ export function Clients() {
   return (
     <section id="clients" aria-label="Clients" className="pt-24 pb-20 sm:py-32">
       <Container>
-        <h2 className="max-w-2xl mx-auto text-3xl font-medium tracking-tighter text-center font-display text-couture-darkGold contrast-150 sm:text-4xl md:text-5xl">
+        <h2 className="mx-auto max-w-2xl text-center font-display text-3xl font-medium tracking-tighter text-couture-darkGold contrast-150 sm:text-4xl md:text-5xl">
           {t('common:pastClients')}
         </h2>
-        <div className="grid grid-cols-1 mx-auto mt-12 max-w-max place-content-center gap-y-6 gap-x-32 sm:mt-20 sm:grid-cols-3 sm:gap-y-12 md:gap-x-16 lg:gap-x-32">
+        <div className="mx-auto mt-12 grid max-w-max grid-cols-1 place-content-center gap-y-6 gap-x-32 sm:mt-20 sm:grid-cols-3 sm:gap-y-12 md:gap-x-16 lg:gap-x-32">
           {clients.map((client, i) => (
             <motion.div
               initial={{

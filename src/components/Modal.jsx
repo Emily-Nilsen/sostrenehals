@@ -1,17 +1,31 @@
-import { Fragment, useState } from 'react'
+import { Fragment, useState, useEffect } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { ExclamationTriangleIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import useTranslation from 'next-translate/useTranslation'
 
 export function Modal() {
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false) // Start with the modal closed
   const { t } = useTranslation()
+
+  // Use useEffect to open the modal after 10 seconds
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setOpen(true) // Open the modal after 10 seconds
+    }, 10000) // 10000 milliseconds = 10 seconds
+
+    // Clear the timer if the component unmounts or if the modal is closed before 10 seconds
+    return () => clearTimeout(timer)
+  }, []) // Empty dependency array to run this effect only once
 
   return (
     <div>
       <Transition.Root show={open} as={Fragment}>
-        <Dialog as="div" className="relative z-20" onClose={setOpen}>
+        <Dialog
+          as="div"
+          className="relative z-20"
+          onClose={() => setOpen(false)}
+        >
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"

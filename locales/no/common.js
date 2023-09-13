@@ -48,6 +48,17 @@ const common = {
   // Concerts
   close: `Lukk`,
   buy: `Kjøp billetter`,
+
+  // Julekonsert
+  julekonsertTitle: 'Julekonsert',
+  julekonsert1:
+    'Siden 2014 har Søstrene Hals holdt en ekstremt populær julekonsert. De har hatt med seg gjester som Arne Hurlen, Nils Georg Haugland Nilsen, Arnhild Litlére, Sondrey, Marius Gjersø og Stian Larsen.',
+  julekonsert2: 'I år har de med seg blant annet Sølvguttene i Ris kirke.',
+  julekonsert: 'Julekonsert i Ris kirke',
+  julekonsertInfo:
+    'Skann QR-koden for å kjøpe billetter til årets julekonsert 19. desember 2023.',
+  dec: 'Desember',
+  stayTuned: 'Følg med for kommende konserter.',
 }
 
 export default common

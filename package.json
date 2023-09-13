@@ -19,7 +19,7 @@
     "cloudinary-video-player": "^1.9.3",
     "clsx": "^1.2.0",
     "focus-visible": "^5.2.0",
-    "framer-motion": "^7.3.2",
+    "framer-motion": "^10.16.4",
     "next": "12.2.3",
     "next-translate": "^1.5.0",
     "postcss-focus-visible": "^6.0.4",

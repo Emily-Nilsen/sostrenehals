@@ -6,6 +6,8 @@ import { Clients } from '@/components/Clients'
 import { Biography } from '@/components/Biography'
 import { Sisters } from '@/components/Sisters'
 import { PhotoGallery } from '@/components/PhotoGallery'
+import { Julekonsert } from '@/components/Julekonsert'
+import { VideoComponent } from '@/components/VideoComponent'
 import { Contact } from '@/components/Contact'
 import { PhotoCollage } from '@/components/PhotoCollage'
 import { Modal } from '@/components/Modal'
@@ -31,6 +33,8 @@ export default function Home() {
           <Biography />
           <Sisters />
           <PhotoGallery />
+          <Julekonsert />
+
           <Contact />
           <PhotoCollage />
           <Modal />
