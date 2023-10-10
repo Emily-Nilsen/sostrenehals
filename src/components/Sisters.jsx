@@ -3,25 +3,26 @@ import { Container } from '@/components/Container'
 import backgroundImage from '@/images/logos/lightGoldLogo.svg'
 import { motion } from 'framer-motion'
 import useTranslation from 'next-translate/useTranslation'
+import Link from 'next/link'
 
 export function Sisters() {
   const { t } = useTranslation()
 
   return (
-    <div className="relative overflow-hidden bg-white pt-8 pb-12 sm:py-16 lg:py-24">
+    <div className="relative overflow-hidden bg-white pb-12 pt-8 sm:py-16 lg:py-24">
       <div className="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full">
         <div
           className="relative mx-auto h-full max-w-prose text-lg"
           aria-hidden="true"
         >
           <Image
-            className="absolute top-12 left-full translate-x-20 transform opacity-50 blur-sm"
+            className="absolute left-full top-12 translate-x-20 transform opacity-50 blur-sm"
             src={backgroundImage}
             alt="logo"
             unoptimized
           />
           <Image
-            className="absolute top-1/2 right-full -translate-x-20 -translate-y-1/2 transform opacity-50 blur-sm"
+            className="absolute right-full top-1/2 -translate-x-20 -translate-y-1/2 transform opacity-50 blur-sm"
             src={backgroundImage}
             alt="logo"
             unoptimized
@@ -67,6 +68,14 @@ export function Sisters() {
           >
             {t('common:susanneLine3')}
           </motion.p>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://susannehals.com"
+            className="font-bold text-couture-darkGold transition-colors duration-200 ease-in-out hover:text-couture-darkGold/80"
+          >
+            susannehals.com
+          </Link>
           <motion.figure
             whileInView={{ opacity: 1 }}
             initial={{ opacity: 0 }}
@@ -84,7 +93,7 @@ export function Sisters() {
               height={594}
               unoptimized
             />
-            <figcaption className="mt-3 -mb-6 flex items-center text-couture-darkGold">
+            <figcaption className="-mb-6 mt-3 flex items-center text-couture-darkGold">
               {t('common:commonBioImageText')}
             </figcaption>
           </motion.figure>
