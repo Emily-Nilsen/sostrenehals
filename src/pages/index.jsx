@@ -18,8 +18,7 @@ export default function Home() {
 
   // Define your OG data here
   const ogTitle = 'Julekonsert med Søstrene Hals'
-  const ogDescription =
-    'Julekonsert i Ris kirke med Søstrene Hals, Sølvguttene, Atle Tømmervik og Ingunn Tennøe, 19. desember 2023, kl. 18'
+  const ogDescription = 'i Ris kirke, 19. desember 2023, kl. 18'
   const ogImage =
     'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/S%C3%B8strene%20Hals/julekonsert_OG_poster_nqljgh.webp' // Replace with your image URL
   const ogUrl = 'https://www.sostrenehals.com' // Replace with the URL of your website
