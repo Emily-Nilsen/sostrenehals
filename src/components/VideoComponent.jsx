@@ -22,9 +22,9 @@ export function VideoComponent() {
       href: 'https://bakgardensandvika.no/arrangementer/opera-til-folket-9',
       description: `Julekonsert med Søstrene Hals, Sølvguttene, Atle Tømmervik og Ingunn Tennøe.`,
       promo:
-        'https://res.cloudinary.com/dt3k2apqd/video/upload/v1694513379/S%C3%B8strene%20Hals/Julekonsert_2023_uten_klokkeslett_yo4edk.mp4',
+        'https://res.cloudinary.com/dt3k2apqd/video/upload/v1700326559/S%C3%B8strene%20Hals/Julekonsert_v2_gxaveq.mp4',
       poster:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/S%C3%B8strene%20Hals/Julekonsert_poster_dc8fcv.webp',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/S%C3%B8strene%20Hals/julekonsert_poster_video_gekglp.webp',
       date: `19${locale === 'en' ? '' : '.'} ${t('common:dec')}, 2023`,
       datetime: '2023-12-19',
       category: { title: 'Konsert' },
@@ -83,7 +83,7 @@ export function VideoComponent() {
             className="flex flex-col items-start justify-between"
           >
             {post.promo ? (
-              <div className="relative aspect-[4/5] w-full rounded-2xl object-cover">
+              <div className="relative aspect-[3/5] w-full rounded-2xl object-cover">
                 <div className="absolute flex h-full w-full items-center justify-center overflow-hidden rounded-2xl">
                   <VideoPlayer publicId={post.promo} poster={post.poster} />
                 </div>

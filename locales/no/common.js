@@ -43,7 +43,7 @@ const common = {
   emailUs: `Send oss en e-post`,
 
   // Meta tags
-  metaDescription: `En norsk søsken duo som holder til i Oslo. Søstrene Hals er en sopran- og fiolinduo med et reportoire som strekker seg fra klassiske perler til ovveraskende tøffe rytmer.`,
+  metaDescription: `Med musikalitet og høye toner i verdensklasse tar Søstrene Hals deg gjennom en kveld hvor du får høre alt fra klassiske perler, julesalmer og tøffe rytmer. Sikre deg billetter til et av adventstidens høydepunkter, jul med Søstrene Hals.`,
 
   // Concerts
   close: `Lukk`,
@@ -53,7 +53,8 @@ const common = {
   julekonsertTitle: 'Julekonsert',
   julekonsert1:
     'Siden 2014 har Søstrene Hals holdt en ekstremt populær julekonsert. De har hatt med seg gjester som Arne Hurlen, Nils Georg Haugland Nilsen, Arnhild Litlére, Sondrey, Marius Gjersø og Stian Larsen.',
-  julekonsert2: 'I år har de med seg blant annet Sølvguttene i Ris kirke.',
+  julekonsert2:
+    'I år har de med seg blant annet solistgruppen fra Sølvguttene, Atle Tømmervik og Ingunn Tennøe i Ris kirke.',
   julekonsert: 'Julekonsert i Ris kirke',
   julekonsertInfo:
     'Skann QR-koden for å kjøpe billetter til årets julekonsert 19. desember 2023.',
