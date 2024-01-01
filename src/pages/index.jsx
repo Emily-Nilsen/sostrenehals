@@ -17,9 +17,8 @@ export default function Home() {
   const { t } = useTranslation()
 
   // Define your OG data here
-  const ogTitle = 'Søstrene Hals'
-  const ogDescription =
-    'Sopran- og fiolinduo • Kathrine og Susanne Hvinden Hals'
+  const ogTitle = 'Sopran- og fiolinduo • Søstrene Hals'
+  const ogDescription = 'Kathrine og Susanne Hvinden Hals'
   const ogImage =
     'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/S%C3%B8strene%20Hals/image3_mjp8nv_apnktl.webp' // Replace with your image URL
   const ogUrl = 'https://www.sostrenehals.com' // Replace with the URL of your website
