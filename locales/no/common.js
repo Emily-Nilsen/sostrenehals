@@ -60,6 +60,9 @@ const common = {
     'Skann QR-koden for å kjøpe billetter til årets julekonsert 19. desember 2023.',
   dec: 'Desember',
   stayTuned: 'Følg med for kommende konserter.',
+
+  // Footer
+  utviklet: 'Utviklet av',
 }
 
 export default common

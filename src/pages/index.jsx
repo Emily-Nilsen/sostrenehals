@@ -17,10 +17,11 @@ export default function Home() {
   const { t } = useTranslation()
 
   // Define your OG data here
-  const ogTitle = 'Julekonsert med Søstrene Hals'
-  const ogDescription = 'i Ris kirke, 19. desember 2023, kl. 18'
+  const ogTitle = 'Søstrene Hals'
+  const ogDescription =
+    'Sopran- og fiolinduo • Kathrine og Susanne Hvinden Hals'
   const ogImage =
-    'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/S%C3%B8strene%20Hals/julekonsert_OG_poster_nqljgh.webp' // Replace with your image URL
+    'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/S%C3%B8strene%20Hals/image3_mjp8nv_apnktl.webp' // Replace with your image URL
   const ogUrl = 'https://www.sostrenehals.com' // Replace with the URL of your website
 
   return (
@@ -47,11 +48,11 @@ export default function Home() {
           <Biography />
           <Sisters />
           <PhotoGallery />
-          <Julekonsert />
+          {/* <Julekonsert /> */}
 
           <Contact />
           <PhotoCollage />
-          <Modal />
+          {/* <Modal /> */}
         </>
       </main>
       <Footer />

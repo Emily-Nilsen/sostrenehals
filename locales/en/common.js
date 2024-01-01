@@ -48,6 +48,9 @@ const common = {
     'Scan the QR code to buy tickets to this year’s Christmas concert on 19 December 2023.',
   dec: 'December',
   stayTuned: 'Stay tuned for upcoming concerts.',
+
+  // Footer
+  utviklet: 'Developed by',
 }
 
 export default common
