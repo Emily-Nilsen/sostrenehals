@@ -63,7 +63,7 @@ export function Modal() {
                   <div className="h-full w-full md:max-w-sm">
                     <div className="mx-auto mb-4 flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-nutmeg md:mt-10">
                       <Image
-                        src="/Julekonsert_2024_Ullern_kirke.webp"
+                        src="/Julekonsert_2024_mobile.webp"
                         alt="Julekonsert i Ullern kirke, 2024"
                         width={3508}
                         height={4961}

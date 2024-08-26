@@ -84,10 +84,10 @@ export function VideoComponent() {
             {post.promo ? (
               <div className="relative aspect-[3/5] w-full rounded-2xl object-cover">
                 <Image
-                  width={3508}
-                  height={4961}
+                  width={1500}
+                  height={2121}
                   alt="gallery"
-                  src="/Julekonsert_2024_Ullern_kirke.webp"
+                  src="/Julekonsert_2024_mobile.webp"
                   className="h-full w-full rounded-2xl bg-red-100 object-cover"
                 />
                 {/* <div className="absolute flex items-center justify-center w-full h-full overflow-hidden bg-blue-100 rounded-2xl">
