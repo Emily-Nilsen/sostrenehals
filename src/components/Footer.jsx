@@ -24,17 +24,7 @@ export function Footer() {
         </ToTopButton>
         <SocialLinks />
         <p className="mt-6 text-base text-nutmeg md:mt-0">
-          &copy; {new Date().getFullYear()} Søstrene Hals.{' '}
-          {t('common:utviklet')}{' '}
-          <Link
-            href="https://norsknett.no"
-            target="_blank"
-            rel="noreferrer"
-            className="cursor-pointer hover:underline"
-          >
-            Norsk Nett
-          </Link>
-          .
+          &copy; {new Date().getFullYear()} Søstrene Hals
         </p>
       </Container>
     </footer>
