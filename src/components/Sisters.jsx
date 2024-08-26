@@ -68,14 +68,14 @@ export function Sisters() {
           >
             {t('common:susanneLine3')}
           </motion.p>
-          <Link
+          {/* <Link
             target="_blank"
             rel="noopener noreferrer"
             href="https://susannehals.com"
-            className="font-bold text-couture-darkGold transition-colors duration-200 ease-in-out hover:text-couture-darkGold/80"
+            className="font-bold transition-colors duration-200 ease-in-out text-couture-darkGold hover:text-couture-darkGold/80"
           >
             susannehals.com
-          </Link>
+          </Link> */}
           <motion.figure
             whileInView={{ opacity: 1 }}
             initial={{ opacity: 0 }}
