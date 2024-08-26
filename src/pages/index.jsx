@@ -47,11 +47,11 @@ export default function Home() {
           <Biography />
           <Sisters />
           <PhotoGallery />
-          {/* <Julekonsert /> */}
+          <Julekonsert />
 
           <Contact />
           <PhotoCollage />
-          {/* <Modal /> */}
+          <Modal />
         </>
       </main>
       <Footer />

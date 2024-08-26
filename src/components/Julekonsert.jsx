@@ -1,7 +1,7 @@
 import { Container } from '@/components/Container'
 import Link from 'next/link'
 import Image from 'next/image'
-import qrCode from '@/images/julekonsert.svg'
+import qrCode from '@/images/Julekonsert_2024.svg'
 import useTranslation from 'next-translate/useTranslation'
 import { motion } from 'framer-motion'
 import { VideoComponent } from './VideoComponent'
@@ -40,7 +40,7 @@ export function Julekonsert() {
         <div className="overflow-hidden bg-white">
           <Container>
             <div className="relative mx-auto max-w-7xl px-4 pb-16 sm:px-6 md:pb-32 lg:px-8">
-              <div className="absolute top-0 bottom-0 left-3/4 hidden w-screen lg:block" />
+              <div className="absolute bottom-0 left-3/4 top-0 hidden w-screen lg:block" />
               <div className="mx-auto max-w-prose lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
                 <div className="prose prose-lg font-display text-lg text-couture-darkGold/90">
                   <h2 className="mb-6 text-4xl font-medium tracking-tighter text-couture-darkGold contrast-200 sm:text-5xl">
@@ -54,7 +54,7 @@ export function Julekonsert() {
                     <VideoComponent />
                   </div>
                 </div>
-                <div className="mt-8 grid place-content-between lg:mt-0">
+                <div className="-mt-8 grid place-content-between lg:mt-0">
                   <div className="prose-darkGold/90 prose prose-lg mx-auto mt-0 font-display text-lg text-couture-darkGold/90 lg:col-start-1 lg:row-start-1 lg:max-w-none">
                     <div>
                       <motion.p
@@ -99,14 +99,14 @@ export function Julekonsert() {
                         <Image
                           src={qrCode}
                           alt="Julekonsert i Ris kirke med Søstrene Hals"
-                          className="overflow-hidden rounded-xl p-1"
+                          className="overflow-hidden rounded-none p-1"
                           unoptimized
                         />
                       </div>
-                      <div className="prose-darkGold/90 prose prose-lg mx-auto mt-0 ml-8 font-display lg:w-64">
+                      <div className="prose-darkGold/90 prose prose-lg mx-auto ml-8 mt-0 font-display lg:w-64">
                         <a
                           className="group"
-                          href="https://www.ticketmaster.no/event/julekonsert-med-sostrene-hals-og-solvguttene-billetter/725651"
+                          href="https://www.ticketmaster.no/event/julekonsert-med-sostrene-hals-solvguttene-tommervik-og-zlatanos-billetter/749305"
                           target="_blank"
                           rel="noreferrer"
                         >

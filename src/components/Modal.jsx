@@ -49,8 +49,8 @@ export function Modal() {
                 leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                 leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
               >
-                <Dialog.Panel className="relative m-3 transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:p-6">
-                  <div className="absolute top-0 right-0 hidden pt-4 pr-4 sm:block">
+                <Dialog.Panel className="relative m-3 transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:p-6">
+                  <div className="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
                     <button
                       type="button"
                       className="rounded-md bg-white text-nutmeg transition duration-300 ease-in-out hover:text-couture-darkGold focus:outline-none focus:ring-2 focus:ring-nutmeg/50 focus:ring-offset-2"
@@ -63,8 +63,8 @@ export function Modal() {
                   <div className="h-full w-full md:max-w-sm">
                     <div className="mx-auto mb-4 flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-nutmeg md:mt-10">
                       <Image
-                        src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/S%C3%B8strene%20Hals/Julekonsert_-_kun_dato_-_modal_stcshw.webp"
-                        alt="Julekonsert i Ris kirke, 2022"
+                        src="/Julekonsert_2024_Ullern_kirke.webp"
+                        alt="Julekonsert i Ullern kirke, 2024"
                         width={3508}
                         height={4961}
                         className="overflow-hidden rounded-lg"
@@ -76,7 +76,7 @@ export function Modal() {
                     <a
                       rel="noopener noreferrer"
                       target="_blank"
-                      href="https://www.ticketmaster.no/event/julekonsert-med-sostrene-hals-og-solvguttene-billetter/725651"
+                      href="https://www.ticketmaster.no/event/julekonsert-med-sostrene-hals-solvguttene-tommervik-og-zlatanos-billetter/749305"
                     >
                       <button
                         type="button"

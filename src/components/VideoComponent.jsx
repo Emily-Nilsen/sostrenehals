@@ -18,15 +18,14 @@ export function VideoComponent() {
     // More posts...
     {
       id: 3,
-      title: 'Julekonsert i Ris kirke',
+      title: 'Julekonsert i Ullern kirke',
       href: 'https://bakgardensandvika.no/arrangementer/opera-til-folket-9',
-      description: `Julekonsert med Søstrene Hals, Sølvguttene, Atle Tømmervik og Ingunn Tennøe.`,
+      description: `Julekonsert med Søstrene Hals, Sølvguttene, Atle Tømmervik og Stefan Ibsen Zlatanos.`,
       promo:
         'https://res.cloudinary.com/dt3k2apqd/video/upload/v1700326559/S%C3%B8strene%20Hals/Julekonsert_v2_gxaveq.mp4',
-      poster:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/S%C3%B8strene%20Hals/julekonsert_poster_video_gekglp.webp',
-      date: `19${locale === 'en' ? '' : '.'} ${t('common:dec')}, 2023`,
-      datetime: '2023-12-19',
+      poster: '/Julekonsert_2024_Ullern_kirke.webp',
+      date: `26${locale === 'en' ? '' : '.'} ${t('common:dec')}, 2024`,
+      datetime: '2024-11-26',
       category: { title: 'Konsert' },
       venue: {
         name: `Julekonsert med Søstrene Hals og Sølvguttene`,
@@ -84,9 +83,17 @@ export function VideoComponent() {
           >
             {post.promo ? (
               <div className="relative aspect-[3/5] w-full rounded-2xl object-cover">
-                <div className="absolute flex h-full w-full items-center justify-center overflow-hidden rounded-2xl">
+                <Image
+                  width={3508}
+                  height={4961}
+                  alt="gallery"
+                  src="/Julekonsert_2024_Ullern_kirke.webp"
+                  className="h-full w-full rounded-2xl bg-red-100 object-cover"
+                />
+                {/* <div className="absolute flex items-center justify-center w-full h-full overflow-hidden bg-blue-100 rounded-2xl">
                   <VideoPlayer publicId={post.promo} poster={post.poster} />
-                </div>
+                  
+                </div> */}
               </div>
             ) : (
               <div className="relative w-full">
