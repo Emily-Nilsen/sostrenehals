@@ -88,7 +88,7 @@ export function VideoComponent() {
                   height={2121}
                   alt="gallery"
                   src="/Julekonsert_2024_mobile.webp"
-                  className="h-full w-full rounded-2xl bg-red-100 object-cover"
+                  className="h-full w-full rounded-2xl bg-tan-light/50 object-cover"
                 />
                 {/* <div className="absolute flex items-center justify-center w-full h-full overflow-hidden bg-blue-100 rounded-2xl">
                   <VideoPlayer publicId={post.promo} poster={post.poster} />
