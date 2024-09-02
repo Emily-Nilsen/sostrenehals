@@ -8,7 +8,7 @@ export function SpotifyPlayer({ spotifyUri }) {
         width="100%"
         height="380"
         frameBorder="0"
-        allowtransparency="true"
+        // allowtransparency="true"
         allow="encrypted-media"
         className="shadow-lg"
       ></iframe>
