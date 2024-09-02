@@ -2,6 +2,7 @@ import Image from 'next/future/image'
 import { Container } from '@/components/Container'
 import { motion } from 'framer-motion'
 import useTranslation from 'next-translate/useTranslation'
+import { SpotifyPlayer } from './SpotifyPlayer'
 
 export function Biography() {
   const { t } = useTranslation()
@@ -24,7 +25,7 @@ export function Biography() {
         </div>
       </div>
       <Container className="relative">
-        <div className="relative px-4 pt-12 pb-16 sm:px-6 sm:pt-16 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:pb-24 lg:pt-24">
+        <div className="relative px-4 pb-16 pt-12 sm:px-6 sm:pt-16 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:pb-24 lg:pt-24">
           <div className="lg:col-start-2 lg:pl-8">
             <div className="mx-auto max-w-prose text-base lg:ml-auto lg:mr-0 lg:max-w-lg">
               <h1 className="mt-2 inline font-display text-5xl font-medium leading-8 tracking-tight text-transparent text-white brightness-110 sm:text-6xl">
@@ -66,6 +67,13 @@ export function Biography() {
                   {t('common:commonBioLine3')}
                 </motion.p>
               </div>
+            </div>
+            {/* Spotify widgets */}
+            <div className="relative mt-10">
+              <SpotifyPlayer spotifyUri="track/3cU4oFFA61XbHnhJWrAo8E?si=56e74304a89342f7" />
+            </div>
+            <div className="relative mt-10">
+              <SpotifyPlayer spotifyUri="track/1TkO5LMfw6hzVVydZDpcBG?si=7cme6e_wT_WWzj4DRw0Jjw" />
             </div>
           </div>
         </div>
