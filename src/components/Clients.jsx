@@ -13,6 +13,7 @@ import logoBirger from '@/images/logos/Birger.svg'
 import logoMalling from '@/images/logos/Malling.svg'
 import logoSølvguttene from '@/images/logos/Sølvguttene.svg'
 import logoWilhelmsen from '@/images/logos/Wilhelmsen.svg'
+import logoEstateMedia from '@/images/logos/estate_media.svg'
 
 const clients = [
   { name: 'DNB', logo: logoDnb },
@@ -22,6 +23,7 @@ const clients = [
   { name: 'NorgesGruppen', logo: logoNorgesGruppen },
   { name: 'Malling', logo: logoMalling },
   { name: 'Wilhelmsen', logo: logoWilhelmsen },
+  { name: 'EstateMedia', logo: logoEstateMedia },
 ]
 
 export function Clients() {
