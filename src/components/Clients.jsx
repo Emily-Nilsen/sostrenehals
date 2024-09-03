@@ -7,28 +7,31 @@ import logoDnb from '@/images/logos/DnB.svg'
 import logoMef from '@/images/logos/MEF.svg'
 import logoArctic from '@/images/logos/ArcticSecurities.svg'
 import logoNeed from '@/images/logos/NeedMusic.svg'
+import logoLangaard from '@/images/logos/langaard-logo-full.svg'
 import logoNorgesGruppen from '@/images/logos/NorgesGruppen.svg'
 import logoBirger from '@/images/logos/Birger.svg'
+import logoMalling from '@/images/logos/Malling.svg'
+import logoSølvguttene from '@/images/logos/Sølvguttene.svg'
 
 const clients = [
   { name: 'DNB', logo: logoDnb },
-  { name: 'MEF', logo: logoMef },
+  { name: 'Sølvguttene', logo: logoSølvguttene },
   { name: 'ArcticSecurities', logo: logoArctic },
-  { name: 'NeedMusic', logo: logoNeed },
+  { name: 'Langaard', logo: logoLangaard },
   { name: 'NorgesGruppen', logo: logoNorgesGruppen },
-  { name: 'Birger', logo: logoBirger },
+  { name: 'Malling', logo: logoMalling },
 ]
 
 export function Clients() {
   const { t } = useTranslation()
 
   return (
-    <section id="clients" aria-label="Clients" className="pt-24 pb-20 sm:py-32">
+    <section id="clients" aria-label="Clients" className="pb-20 pt-24 sm:py-32">
       <Container>
         <h2 className="mx-auto max-w-2xl text-center font-display text-3xl font-medium tracking-tighter text-couture-darkGold contrast-150 sm:text-4xl md:text-5xl">
           {t('common:pastClients')}
         </h2>
-        <div className="mx-auto mt-12 grid max-w-max grid-cols-1 place-content-center gap-y-6 gap-x-32 sm:mt-20 sm:grid-cols-3 sm:gap-y-12 md:gap-x-16 lg:gap-x-32">
+        <div className="mx-auto mt-12 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-6 sm:mt-20 sm:grid-cols-3 sm:gap-y-12 md:gap-x-16 lg:gap-x-32">
           {clients.map((client, i) => (
             <motion.div
               initial={{
