@@ -14,6 +14,7 @@ import logoMalling from '@/images/logos/Malling.svg'
 import logoSølvguttene from '@/images/logos/Sølvguttene.svg'
 import logoWilhelmsen from '@/images/logos/Wilhelmsen.svg'
 import logoEstateMedia from '@/images/logos/estate_media.svg'
+import logoColliers from '@/images/logos/Colliers.svg'
 
 const clients = [
   { name: 'DNB', logo: logoDnb },
@@ -24,6 +25,7 @@ const clients = [
   { name: 'Malling', logo: logoMalling },
   { name: 'Wilhelmsen', logo: logoWilhelmsen },
   { name: 'EstateMedia', logo: logoEstateMedia },
+  { name: 'Colliers', logo: logoColliers },
 ]
 
 export function Clients() {
