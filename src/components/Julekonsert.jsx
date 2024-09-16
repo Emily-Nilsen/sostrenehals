@@ -6,7 +6,6 @@ import useTranslation from 'next-translate/useTranslation'
 import { motion } from 'framer-motion'
 import { VideoComponent } from './VideoComponent'
 import { HalsSistersLogo } from './Logos'
-import { Video } from 'cloudinary-react'
 
 function QrCodeBorder(props) {
   return (

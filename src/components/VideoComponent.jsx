@@ -4,8 +4,6 @@ import useTranslation from 'next-translate/useTranslation'
 import { Container } from '@/components/Container'
 import { useRouter } from 'next/router'
 import { motion } from 'framer-motion'
-
-import VideoPlayer from './VideoPlayer'
 import { HalsSistersLogo } from './Logos'
 import { BakgardenkonsertLogo } from './Logos'
 
@@ -21,8 +19,7 @@ export function VideoComponent() {
       title: 'Julekonsert i Ullern kirke',
       href: 'https://bakgardensandvika.no/arrangementer/opera-til-folket-9',
       description: `Julekonsert med Søstrene Hals, Sølvguttene, Atle Tømmervik og Stefan Ibsen Zlatanos.`,
-      promo:
-        'https://res.cloudinary.com/dt3k2apqd/video/upload/v1700326559/S%C3%B8strene%20Hals/Julekonsert_v2_gxaveq.mp4',
+      promo: '#',
       poster: '/Julekonsert_2024_Ullern_kirke.webp',
       date: `26${locale === 'en' ? '' : '.'} ${t('common:dec')}, 2024`,
       datetime: '2024-11-26',
@@ -90,10 +87,6 @@ export function VideoComponent() {
                   src="/Julekonsert_2024_mobile.webp"
                   className="h-full w-full rounded-2xl bg-tan-light/50 object-cover"
                 />
-                {/* <div className="absolute flex items-center justify-center w-full h-full overflow-hidden bg-blue-100 rounded-2xl">
-                  <VideoPlayer publicId={post.promo} poster={post.poster} />
-                  
-                </div> */}
               </div>
             ) : (
               <div className="relative w-full">

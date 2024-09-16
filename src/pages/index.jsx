@@ -7,7 +7,6 @@ import { Biography } from '@/components/Biography'
 import { Sisters } from '@/components/Sisters'
 import { PhotoGallery } from '@/components/PhotoGallery'
 import { Julekonsert } from '@/components/Julekonsert'
-import { VideoComponent } from '@/components/VideoComponent'
 import { Contact } from '@/components/Contact'
 import { PhotoCollage } from '@/components/PhotoCollage'
 import { Modal } from '@/components/Modal'
@@ -19,8 +18,7 @@ export default function Home() {
   // Define your OG data here
   const ogTitle = 'Sopran- og fiolinduo • Søstrene Hals'
   const ogDescription = 'Kathrine og Susanne Hvinden Hals'
-  const ogImage =
-    'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/S%C3%B8strene%20Hals/image3_mjp8nv_apnktl.webp' // Replace with your image URL
+  const ogImage = '/image03.webp' // Replace with your image URL
   const ogUrl = 'https://www.sostrenehals.com' // Replace with the URL of your website
 
   return (
