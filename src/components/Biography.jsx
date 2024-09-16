@@ -1,4 +1,5 @@
-import Image from 'next/future/image'
+import Image from 'next/image'
+
 import { Container } from '@/components/Container'
 import { motion } from 'framer-motion'
 import useTranslation from 'next-translate/useTranslation'
@@ -19,8 +20,7 @@ export function Biography() {
             width={1548}
             height={2064}
             sizes="100vw"
-            fill
-            unoptimized
+            fill={true} // Explicitly set fill to true
           />
         </div>
       </div>

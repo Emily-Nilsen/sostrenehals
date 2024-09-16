@@ -9,7 +9,7 @@ import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/future/image'
 
 export function LanguageButton() {
-  const { locale, locales, defaultLocale, asPath } = useRouter()
+  const { locale, asPath } = useRouter()
   const { t } = useTranslation()
 
   function classNames(...classes) {
@@ -17,27 +17,33 @@ export function LanguageButton() {
   }
 
   return (
-    <span className="relative z-0 inline-flex font-semibold rounded-md shadow-none font-display text-white/60">
+    <span className="relative z-0 inline-flex rounded-md font-display font-semibold text-white/60 shadow-none">
       <div className="flex items-center">
-        <button
-          type="button"
-          className="relative inline-flex items-center pr-2 text-sm uppercase transition duration-300 ease-in-out bg-t text-white/70 hover:text-white hover:opacity-100 hover:brightness-200"
-        >
-          <Link activeClassName={locale === 'en'} href={asPath} locale="en">
-            <p>en</p>
-          </Link>
-        </button>
+        <Link href={asPath} locale="en">
+          <button
+            type="button"
+            className={classNames(
+              'bg-t relative inline-flex items-center pr-2 text-sm uppercase transition duration-300 ease-in-out',
+              locale === 'en' ? 'text-white' : 'text-white/70 hover:text-white'
+            )}
+          >
+            en
+          </button>
+        </Link>
 
         <p>|</p>
 
-        <button
-          type="button"
-          className="relative inline-flex items-center pl-2 -ml-px text-sm uppercase transition duration-300 ease-in-out bg-t text-white/70 hover:text-white hover:opacity-100 hover:brightness-200"
-        >
-          <Link activeClassName={locale === 'no'} href={asPath} locale="no">
-            <p>no</p>
-          </Link>
-        </button>
+        <Link href={asPath} locale="no">
+          <button
+            type="button"
+            className={classNames(
+              'bg-t relative -ml-px inline-flex items-center pl-2 text-sm uppercase transition duration-300 ease-in-out',
+              locale === 'no' ? 'text-white' : 'text-white/70 hover:text-white'
+            )}
+          >
+            no
+          </button>
+        </Link>
       </div>
     </span>
   )
