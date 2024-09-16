@@ -37,11 +37,11 @@ export function Contact() {
             duration: 1,
             type: 'fade',
           }}
-          className="relative -mx-4 overflow-hidden bg-couture-lightGold/50 px-4 py-14 sm:-mx-6 sm:py-20 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36"
+          className="relative -mx-4 overflow-hidden bg-couture-lightGold/50 px-4 py-14 sm:-mx-6 sm:px-6 sm:py-20 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36"
         >
           <Image
             className="absolute left-1/2 top-0 translate-x-[-10%] translate-y-[-45%] opacity-60 blur-sm lg:translate-x-[-32%]"
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1662658746/S%C3%B8strene%20Hals/SHwhitelogo_up7mbt.svg"
+            src="/SHwhitelogo.svg"
             alt="Søstrene Hals logo"
             width={919}
             height={1351}

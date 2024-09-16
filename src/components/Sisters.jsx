@@ -87,7 +87,7 @@ export function Sisters() {
           >
             <Image
               className="mt-14 w-full rounded-lg lg:mt-16"
-              src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1662639618/S%C3%B8strene%20Hals/hals_ballroom_pg3dkp.webp"
+              src="/hals_ballroom.webp"
               alt="Susanne og Kathrine Hvinden Hals"
               width={792}
               height={594}
