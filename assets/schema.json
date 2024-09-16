@@ -32,16 +32,13 @@
   "email": "sostrenehals@gmail.com",
   "keywords": "fiolin, opera, klassisk sang, musikk i bryllup, musikk til fest, konserter, julekonsert, violin, sang, duo, Sissel Kyrkjebø, pop, begravelser, norsk, folkemusikk, event, piano, booke sang, booke fiolin, booke søstrene Hals, crossover, julemusikk, Rybak, Oslo, Norge, violin, classical songs, wedding music, party music, concerts, Christmas concert, violin, song, duette, pop, funerals, Norwegian, folk music, event, piano, book song, book violin, book Søstrene Hals, Christmas music, Norway",
   "knowsLanguage": ["Norwegian", "English", "norsk", "engelsk"],
-  "logo": [
-    "https://res.cloudinary.com/dt3k2apqd/image/upload/v1663051046/S%C3%B8strene%20Hals/schema_logo_light_tgxjl8.svg",
-    "https://res.cloudinary.com/dt3k2apqd/image/upload/v1663051046/S%C3%B8strene%20Hals/schema_logo_dark_gffhgo.svg"
-  ],
+  "logo": ["/schema_logo_light.svg", "/schema_logo_dark.svg"],
   "slogan": [
     "Søstrene Hals er en sopran- og fiolinduo med et reportoire som strekker seg fra klassiske perler til ovveraskende tøffe rytmer.",
     "Søstrene Hals is a soprano and violin duo with a repertoire ranging from classical gems to surprisingly challenging rhythms."
   ],
   "url": "http://www.sostrenehals.com",
-  "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/v1663051259/S%C3%B8strene%20Hals/schema_img_fpugko.webp",
+  "image": "/schema_img.webp",
   "member": [
     {
       "@type": "OrganizationRole",
