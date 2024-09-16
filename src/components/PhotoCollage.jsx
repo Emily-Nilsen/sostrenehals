@@ -3,7 +3,7 @@ import { Container } from '../components/Container'
 import { motion } from 'framer-motion'
 
 const image_1 = `https://res.cloudinary.com/dt3k2apqd/image/upload/v1664354992/S%C3%B8strene%20Hals/image9_zppfr3.jpg`
-const image_2 = `https://res.cloudinary.com/dt3k2apqd/image/upload/v1664354991/S%C3%B8strene%20Hals/image7_krqfuv.jpg`
+const image_2 = `/image7.jpg`
 const image_3 = `https://res.cloudinary.com/dt3k2apqd/image/upload/v1664354991/S%C3%B8strene%20Hals/image6_c7iw3z.jpg`
 const image_4 = `https://res.cloudinary.com/dt3k2apqd/image/upload/v1664354990/S%C3%B8strene%20Hals/image5_o3p0ja.jpg`
 const image_5 = `https://res.cloudinary.com/dt3k2apqd/image/upload/v1664354990/S%C3%B8strene%20Hals/image8_ef9vge.jpg`
