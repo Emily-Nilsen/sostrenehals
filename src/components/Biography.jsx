@@ -15,7 +15,7 @@ export function Biography() {
         <div className="h-full w-full lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
           <Image
             className="min-h-[70vh] w-auto object-cover drop-shadow-2xl lg:absolute lg:min-h-full"
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1665483759/S%C3%B8strene%20Hals/pink-dresses_tlu5bn_ulx6d0.webp"
+            src="/pink-dresses.webp"
             alt="Susanne og Kathrine Hvinden Hals"
             width={1548}
             height={2064}
