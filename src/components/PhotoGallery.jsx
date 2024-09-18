@@ -13,7 +13,7 @@ export function PhotoGallery() {
         {[
           '/image1.webp',
           '/image2.webp',
-          '/image_01_2024.webp',
+          '/sisters_fountain.webp',
           '/image3.webp',
           '/image5.webp',
         ].map((image, imageIndex) => (
