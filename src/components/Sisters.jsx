@@ -87,7 +87,7 @@ export function Sisters() {
           >
             <Image
               className="mt-14 w-full rounded-lg lg:mt-16"
-              src="/hals_ballroom.webp"
+              src="/image_06_flowers.webp"
               alt="Susanne og Kathrine Hvinden Hals"
               width={792}
               height={594}

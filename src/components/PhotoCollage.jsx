@@ -11,6 +11,7 @@ const image_6 = `/image4.webp`
 const image_7 = `/image_02_2024.webp`
 const image_8 = `/image_03_2024.webp`
 const image_9 = `/image4.webp`
+const image_10 = `/hals_ballroom.webp`
 
 export function PhotoCollage() {
   return (
@@ -137,7 +138,7 @@ export function PhotoCollage() {
                   objectFit="cover"
                   objectPosition="center"
                   alt="gallery"
-                  src={image_5}
+                  src={image_1}
                 />
               </div>
             </motion.div>
@@ -161,7 +162,7 @@ export function PhotoCollage() {
                   objectFit="cover"
                   objectPosition="center"
                   alt="gallery"
-                  src={image_4}
+                  src={image_10}
                 />
               </div>
             </motion.div>
@@ -238,7 +239,7 @@ export function PhotoCollage() {
                   objectFit="cover"
                   objectPosition="center"
                   alt="gallery"
-                  src={image_3}
+                  src={image_10}
                 />
               </div>
             </motion.div>

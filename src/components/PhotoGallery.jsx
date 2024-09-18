@@ -15,7 +15,7 @@ export function PhotoGallery() {
           '/image2.webp',
           '/image_01_2024.webp',
           '/image3.webp',
-          '/image7.jpg',
+          '/image5.webp',
         ].map((image, imageIndex) => (
           <div
             key={imageIndex}
