@@ -4,6 +4,7 @@ import { Container } from '@/components/Container'
 import { motion } from 'framer-motion'
 import useTranslation from 'next-translate/useTranslation'
 import { SpotifyPlayer } from './SpotifyPlayer'
+import { YoutubeVideo } from './YoutubeVideo'
 
 export function Biography() {
   const { t } = useTranslation()
@@ -68,8 +69,11 @@ export function Biography() {
                 </motion.p>
               </div>
             </div>
+            <div className="aspect-video relative mt-10 w-full rounded-2xl object-cover">
+              <YoutubeVideo publicId="https://youtu.be/TAqPhOHex6M?si=8n2TSf4DxGbu6ADz" />
+            </div>
             {/* Spotify widgets */}
-            <div className="relative mt-10">
+            <div className="relative mt-16">
               <SpotifyPlayer spotifyUri="track/3cU4oFFA61XbHnhJWrAo8E?si=56e74304a89342f7" />
             </div>
             <div className="relative mt-10">
