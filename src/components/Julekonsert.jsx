@@ -1,11 +1,9 @@
 import { Container } from '@/components/Container'
-import Link from 'next/link'
 import Image from 'next/image'
 import qrCode from '@/images/Julekonsert_2024.svg'
 import useTranslation from 'next-translate/useTranslation'
 import { motion } from 'framer-motion'
 import { VideoComponent } from './VideoComponent'
-import { HalsSistersLogo } from './Logos'
 
 function QrCodeBorder(props) {
   return (
@@ -67,7 +65,8 @@ export function Julekonsert() {
                       >
                         {t('common:julekonsert1')}
                       </motion.p>
-                      <motion.p
+                      {/* This year, they have with them... */}
+                      {/* <motion.p
                         whileInView={{ opacity: 1 }}
                         initial={{ opacity: 0 }}
                         transition={{
@@ -77,10 +76,11 @@ export function Julekonsert() {
                         }}
                       >
                         {t('common:julekonsert2')}
-                      </motion.p>
+                      </motion.p> */}
                     </div>
                   </div>
-                  <motion.div
+                  {/* Barcode and link for tickets below */}
+                  {/* <motion.div
                     whileInView={{ opacity: 1, y: 0 }}
                     initial={{
                       opacity: 0,
@@ -92,28 +92,28 @@ export function Julekonsert() {
                       type: 'fade',
                     }}
                   >
-                    <div className="group relative -mx-4 flex items-center self-stretch py-4 transition-colors sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:py-6">
-                      <div className="relative flex h-24 w-24 flex-none items-center justify-center">
-                        <QrCodeBorder className="group-hover:stroke-eye-green absolute inset-0 h-full w-full stroke-gray-300 transition-colors" />
+                    <div className="relative flex items-center self-stretch py-4 -mx-4 transition-colors group sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:py-6">
+                      <div className="relative flex items-center justify-center flex-none w-24 h-24">
+                        <QrCodeBorder className="absolute inset-0 w-full h-full transition-colors group-hover:stroke-eye-green stroke-gray-300" />
                         <Image
                           src={qrCode}
                           alt="Julekonsert i Ris kirke med Søstrene Hals"
-                          className="overflow-hidden rounded-none p-1"
+                          className="p-1 overflow-hidden rounded-none"
                           unoptimized
                         />
                       </div>
-                      <div className="prose-darkGold/90 prose prose-lg mx-auto ml-8 mt-0 font-display lg:w-64">
+                      <div className="mx-auto mt-0 ml-8 prose prose-lg prose-darkGold/90 font-display lg:w-64">
                         <a
                           className="group"
                           href="https://www.ticketmaster.no/event/julekonsert-med-sostrene-hals-solvguttene-tommervik-og-zlatanos-billetter/749305"
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <p className="relative z-10 flex text-sm font-normal text-couture-darkGold transition duration-300 ease-in-out">
+                          <p className="relative z-10 flex text-sm font-normal transition duration-300 ease-in-out text-couture-darkGold">
                             <span className="mr-2 text-base font-semibold text-couture-darkGold">
                               {t('common:julekonsert')}
                             </span>
-                            <LinkIcon className="h-6 w-6 flex-none" />
+                            <LinkIcon className="flex-none w-6 h-6" />
                           </p>
                         </a>
 
@@ -122,7 +122,7 @@ export function Julekonsert() {
                         </p>
                       </div>
                     </div>
-                  </motion.div>
+                  </motion.div> */}
                 </div>
               </div>
             </div>
