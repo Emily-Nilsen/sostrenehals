@@ -40,7 +40,7 @@ const common = {
   // Julekonsert
   julekonsertTitle: 'Christmas concert',
   julekonsert1:
-    'Since 2014, Søstrene Hals has held an extremely popular Christmas concert. They have brought guests such as Arne Hurlen, Nils Georg Haugland Nilsen, Arnhild Litlére, Sondrey, Marius Gjersø and Stian Larsen.',
+    'Since 2014, Søstrene Hals has held an especially popular Christmas concert. They have brought guests such as Arne Hurlen, Nils Georg Haugland Nilsen, Arnhild Litlére, Sondrey, Marius Gjersø and Stian Larsen.',
   julekonsert2:
     'This year, they have with them, among other guests, the soloist group from Sølvguttene, Atle Tømmervik and Stefan Ibsen Zlatanos in Ullern church.',
   julekonsert: 'Christmas concert at Ullern Church',
