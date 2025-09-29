@@ -1,6 +1,6 @@
 import { Container } from '@/components/Container'
 import Image from 'next/image'
-import qrCode from '@/images/Julekonsert_2024.svg'
+import qrCode from '@/images/qr-code_2025.svg'
 import useTranslation from 'next-translate/useTranslation'
 import { motion } from 'framer-motion'
 import { VideoComponent } from './VideoComponent'
