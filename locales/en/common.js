@@ -45,8 +45,8 @@ const common = {
     'This year, they have with them, among other guests, the soloist group from Sølvguttene, Atle Tømmervik and Stefan Ibsen Zlatanos in Ullern church.',
   julekonsert: 'Christmas concert at Ullern Church',
   julekonsertInfo:
-    'Scan the QR code to buy tickets to this year’s Christmas concert on 26 November 2024 at 8 pm.',
-  dec: 'November',
+    'Scan the QR code to buy tickets to this year’s Christmas concert on 20 December 2025 at 6 pm.',
+  dec: 'December',
   stayTuned: 'Stay tuned for upcoming concerts.',
 
   // Footer

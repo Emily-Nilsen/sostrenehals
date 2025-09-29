@@ -17,12 +17,12 @@ export function VideoComponent() {
     {
       id: 3,
       title: 'Julekonsert i Ullern kirke',
-      href: 'https://bakgardensandvika.no/arrangementer/opera-til-folket-9',
+      href: 'https://www.ticketmaster.no/event/sostrene-hals-inviterer-jul-med-solvguttene-zlatanos-og-tommervik-billetter/2072519196',
       description: `Julekonsert med Søstrene Hals, Sølvguttene, Atle Tømmervik og Stefan Ibsen Zlatanos.`,
       promo: '#',
-      poster: '/Julekonsert_2024_Ullern_kirke.webp',
-      date: `26${locale === 'en' ? '' : '.'} ${t('common:dec')}, 2024`,
-      datetime: '2024-11-26',
+      poster: '/Julekonsert_2025_desktop.webp',
+      date: `20${locale === 'en' ? '' : '.'} ${t('common:dec')}, 2025`,
+      datetime: '2025-12-20',
       category: { title: 'Konsert' },
       venue: {
         name: `Julekonsert med Søstrene Hals og Sølvguttene`,
@@ -84,7 +84,7 @@ export function VideoComponent() {
                   width={1500}
                   height={2121}
                   alt="gallery"
-                  src="/Julekonsert_2024_mobile.webp"
+                  src="/Julekonsert_2025_mobile.webp"
                   className="h-full w-full rounded-2xl bg-tan-light/50 object-cover"
                 />
               </div>

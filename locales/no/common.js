@@ -57,8 +57,8 @@ const common = {
     'I år har de med seg blant annet solistgruppen fra Sølvguttene, Atle Tømmervik og Stefan Ibsen Zlatanos i Ullern kirke.',
   julekonsert: 'Julekonsert i Ullern kirke',
   julekonsertInfo:
-    'Skann QR-koden for å kjøpe billetter til årets julekonsert 26. november 2024, kl. 20:00.',
-  dec: 'November',
+    'Skann QR-koden for å kjøpe billetter til årets julekonsert 20. desember 2025, kl. 18:00.',
+  dec: 'Desember',
   stayTuned: 'Følg med for kommende konserter.',
 
   // Footer
