@@ -63,8 +63,8 @@ export function Modal() {
                   <div className="h-full w-full md:max-w-sm">
                     <div className="mx-auto mb-4 flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-nutmeg md:mt-10">
                       <Image
-                        src="/Julekonsert_2024_mobile.webp"
-                        alt="Julekonsert i Ullern kirke, 2024"
+                        src="/Julekonsert_2025_mobile.webp"
+                        alt="Julekonsert i Ullern kirke, 2025"
                         width={3508}
                         height={4961}
                         className="overflow-hidden rounded-lg"
@@ -76,7 +76,7 @@ export function Modal() {
                     <a
                       rel="noopener noreferrer"
                       target="_blank"
-                      href="https://www.ticketmaster.no/event/julekonsert-med-sostrene-hals-solvguttene-tommervik-og-zlatanos-billetter/749305"
+                      href="https://www.ticketmaster.no/event/sostrene-hals-inviterer-jul-med-solvguttene-zlatanos-og-tommervik-billetter/2072519196"
                     >
                       <button
                         type="button"

@@ -49,7 +49,7 @@ export default function Home() {
 
           <Contact />
           <PhotoCollage />
-          {/* <Modal /> */}
+          <Modal />
         </>
       </main>
       <Footer />
