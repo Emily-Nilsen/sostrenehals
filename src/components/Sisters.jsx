@@ -1,9 +1,7 @@
 import Image from 'next/future/image'
-import { Container } from '@/components/Container'
 import backgroundImage from '@/images/logos/lightGoldLogo.svg'
 import { motion } from 'framer-motion'
 import useTranslation from 'next-translate/useTranslation'
-import Link from 'next/link'
 
 export function Sisters() {
   const { t } = useTranslation()
@@ -91,7 +89,7 @@ export function Sisters() {
               alt="Susanne og Kathrine Hvinden Hals"
               width={792}
               height={594}
-              unoptimized
+              // unoptimized
             />
             <figcaption className="-mb-6 mt-3 flex items-center text-couture-darkGold">
               {t('common:commonBioImageText')}
