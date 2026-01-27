@@ -89,7 +89,7 @@ export function Sisters() {
               alt="Susanne og Kathrine Hvinden Hals"
               width={792}
               height={594}
-              // unoptimized
+              unoptimized
             />
             <figcaption className="-mb-6 mt-3 flex items-center text-couture-darkGold">
               {t('common:commonBioImageText')}
