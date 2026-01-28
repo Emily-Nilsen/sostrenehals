@@ -2,7 +2,6 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { motion } from 'framer-motion'
-import sistersPinkImage from 'public/pink-dresses.webp'
 import useTranslation from 'next-translate/useTranslation'
 import { SpotifyPlayer } from './SpotifyPlayer'
 import { YoutubeVideo } from './YoutubeVideo'
@@ -17,12 +16,13 @@ export function Biography() {
         <div className="h-full w-full lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
           <Image
             className="min-h-[70vh] w-auto object-cover drop-shadow-2xl lg:absolute lg:min-h-full"
-            src={sistersPinkImage}
+            src="/pink-dresses.webp"
             alt="Susanne og Kathrine Hvinden Hals"
             width={1548}
             height={2064}
             sizes="100vw"
             fill={true} // Explicitly set fill to true
+            unoptimized
           />
         </div>
       </div>
