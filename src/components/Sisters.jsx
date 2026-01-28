@@ -1,6 +1,7 @@
 import Image from 'next/future/image'
 import backgroundImage from '@/images/logos/lightGoldLogo.svg'
 import { motion } from 'framer-motion'
+import sistersImage from 'public/image_06_flowers.webp'
 import useTranslation from 'next-translate/useTranslation'
 
 export function Sisters() {
@@ -85,7 +86,8 @@ export function Sisters() {
           >
             <Image
               className="mt-14 w-full rounded-lg lg:mt-16"
-              src="/image_06_flowers.webp"
+              // src="/image_06_flowers.webp"
+              src={sistersImage}
               alt="Susanne og Kathrine Hvinden Hals"
               width={792}
               height={594}
