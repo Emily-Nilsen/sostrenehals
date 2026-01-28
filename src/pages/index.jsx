@@ -9,7 +9,7 @@ import { PhotoGallery } from '@/components/PhotoGallery'
 import { Julekonsert } from '@/components/Julekonsert'
 import { Contact } from '@/components/Contact'
 import { PhotoCollage } from '@/components/PhotoCollage'
-import { Modal } from '@/components/Modal'
+// import { Modal } from '@/components/Modal'
 import useTranslation from 'next-translate/useTranslation'
 
 export default function Home() {
